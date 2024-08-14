@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "snode"
+version = "0.1.0"
+description = ""
+authors = ["someone <someone@somewhere.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+meshtastic = "^2.3.14"
+pytap2 = "^2.3.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
