@@ -24,16 +24,18 @@ def on_receive(packet, interface):
         if packet['decoded']['portnum'] == 'TELEMETRY_APP':
             telemetry_data = packet['decoded']['telemetry']
             if 'environmentMetrics' in telemetry_data:
-                print("\nBME688")
+                print("\nBME688 " + str(datetime.now()))
                 metrics = telemetry_data['environmentMetrics']
                 if metrics:
-                    row = [str(datetime.datetime.now()), metrics['temperature'], metrics['relativeHumidity'], metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']]
+                    row = [str(datetime.now()), metrics['temperature'], metrics['relativeHumidity'], metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']]
                     print(row)
+                else:
+                    print("all 0s")
             if 'airQualityMetrics' in telemetry_data:
-                print("\nPMSA003I")
+                print("\nPMSA003I " + str(datetime.now()))
                 metrics = telemetry_data['airQualityMetrics']
                 if metrics:
-                    row = [str(datetime.datetime.now()), metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']]
+                    row = [str(datetime.now()), metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']]
                     print(row)
                     
     except KeyError:
