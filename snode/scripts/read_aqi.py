@@ -23,23 +23,23 @@ def on_receive(packet, interface):
     try:
         if packet['decoded']['portnum'] == 'TELEMETRY_APP':
             telemetry_data = packet['decoded']['telemetry']
-            print(f"\nPacket from {packet["fromId"]} at {str(datetime.now())}")
+            print(f"\nPacket from {packet['fromId']} at {str(datetime.now())}")
 
             if 'environmentMetrics' in telemetry_data:
                 print("BME688")
                 metrics = telemetry_data['environmentMetrics']
-                if metrics:
-                    row = [str(datetime.now()), metrics['temperature'], metrics['relativeHumidity'], metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']]
-                    print(row)
-                else:
-                    print("all 0s")
-            if 'airQualityMetrics' in telemetry_data:
+                print(metrics)
+            elif 'airQualityMetrics' in telemetry_data:
                 print("PMSA003I")
                 metrics = telemetry_data['airQualityMetrics']
-                if metrics:
-                    row = [str(datetime.now()), metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']]
-                    print(row)
-                    
+                print(metrics)
+            elif 'powerMetrics' in telemetry_data:
+                print("INA260")
+                metrics = telemetry_data['powerMetrics']
+                print(metrics)
+            else:
+                print("No telemetry data")
+
     except KeyError:
         pass  # Ignore KeyError silently
     except UnicodeDecodeError:
