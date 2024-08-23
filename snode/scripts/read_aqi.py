@@ -23,8 +23,10 @@ def on_receive(packet, interface):
     try:
         if packet['decoded']['portnum'] == 'TELEMETRY_APP':
             telemetry_data = packet['decoded']['telemetry']
+            print(f"\nPacket from {packet["fromId"]} at {str(datetime.now())}")
+
             if 'environmentMetrics' in telemetry_data:
-                print("\nBME688 " + str(datetime.now()))
+                print("BME688")
                 metrics = telemetry_data['environmentMetrics']
                 if metrics:
                     row = [str(datetime.now()), metrics['temperature'], metrics['relativeHumidity'], metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']]
@@ -32,7 +34,7 @@ def on_receive(packet, interface):
                 else:
                     print("all 0s")
             if 'airQualityMetrics' in telemetry_data:
-                print("\nPMSA003I " + str(datetime.now()))
+                print("PMSA003I")
                 metrics = telemetry_data['airQualityMetrics']
                 if metrics:
                     row = [str(datetime.now()), metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']]
