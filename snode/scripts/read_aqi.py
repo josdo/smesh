@@ -20,10 +20,20 @@ def on_receive(packet, interface):
     """
     Callback reads BME688 and PMSA003I data packets over the e.g. serial interface.
     """
+
+    # print(f"Received Packet: {packet}")
+    # print("All reachable nodes:", interface.nodes.keys())
+
+    # nodeid is the last 4 hex digits of node connected via serial port
+    # nodeid = hex(interface.myInfo.my_node_num)[-4:]
+
     try:
+        from_node = hex(packet['from'])
+        print("\nFrom node:", from_node)
+        
         if packet['decoded']['portnum'] == 'TELEMETRY_APP':
             telemetry_data = packet['decoded']['telemetry']
-            print(f"\nPacket from {packet['fromId']} at {str(datetime.now())}")
+            print(f"Packet from {packet['fromId']} at {str(datetime.now())}")
 
             if 'environmentMetrics' in telemetry_data:
                 print("BME688")
@@ -37,8 +47,13 @@ def on_receive(packet, interface):
                 print("INA260")
                 metrics = telemetry_data['powerMetrics']
                 print(metrics)
+            elif 'deviceMetrics' in telemetry_data:
+                print("Device Metrics")
+                metrics = telemetry_data['deviceMetrics']
+                print(metrics)
             else:
-                print("No telemetry data")
+                print("Other packet")
+                print(telemetry_data)
 
     except KeyError:
         pass  # Ignore KeyError silently
