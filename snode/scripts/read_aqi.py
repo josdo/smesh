@@ -25,7 +25,7 @@ def on_receive(packet, interface):
     # print("All reachable nodes:", interface.nodes.keys())
 
     # nodeid is the last 4 hex digits of node connected via serial port
-    # nodeid = hex(interface.myInfo.my_node_num)[-4:]
+    nodeid = hex(interface.myInfo.my_node_num)[-4:]
 
     try:
         from_node = hex(packet['from'])
@@ -39,21 +39,34 @@ def on_receive(packet, interface):
                 print("BME688")
                 metrics = telemetry_data['environmentMetrics']
                 print(metrics)
+                log_to_csv(f'{nodeid}_bme688.csv', [str(datetime.now()), from_node, metrics['temperature'], metrics['relativeHumidity'],
+                         metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']])
+
             elif 'airQualityMetrics' in telemetry_data:
                 print("PMSA003I")
                 metrics = telemetry_data['airQualityMetrics']
                 print(metrics)
+                log_to_csv(f'{nodeid}_pmsa003i.csv', 
+                           [str(datetime.now()), from_node, metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], 
+                            metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']])
+                
             elif 'powerMetrics' in telemetry_data:
                 print("INA260")
                 metrics = telemetry_data['powerMetrics']
                 print(metrics)
+                log_to_csv(f'{nodeid}_ina260.csv', [str(datetime.now()), from_node, metrics['ch3Voltage']])
+
             elif 'deviceMetrics' in telemetry_data:
                 print("Device Metrics")
                 metrics = telemetry_data['deviceMetrics']
                 print(metrics)
+                log_to_csv(f'{nodeid}_device_metrics.csv', [str(datetime.now()), from_node, metrics['batteryLevel'], 
+                    metrics['voltage'], metrics['channelUtilization'], metrics['airUtilTx']]) 
+
             else:
                 print("Other packet")
                 print(telemetry_data)
+                log_to_csv('other.csv', [str(datetime.now()), from_node, telemetry_data])
 
     except KeyError:
         pass  # Ignore KeyError silently
