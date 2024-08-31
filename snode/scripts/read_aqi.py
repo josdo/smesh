@@ -21,7 +21,7 @@ def on_receive(packet, interface):
     Callback reads BME688 and PMSA003I data packets over the e.g. serial interface.
     """
 
-    # print(f"Received Packet: {packet}")
+    print(f"Received Packet: {packet}")
     # print("All reachable nodes:", interface.nodes.keys())
 
     # nodeid is the last 4 hex digits of node connected via serial port
@@ -66,7 +66,7 @@ def on_receive(packet, interface):
             else:
                 print("Other packet")
                 print(telemetry_data)
-                log_to_csv('other.csv', [str(datetime.now()), from_node, telemetry_data])
+                log_to_csv(f'{nodeid}other.csv', [str(datetime.now()), from_node, telemetry_data])
 
     except KeyError:
         pass  # Ignore KeyError silently
