@@ -39,14 +39,14 @@ def on_receive(packet, interface):
                 print("BME688")
                 metrics = telemetry_data['environmentMetrics']
                 print(metrics)
-                log_to_csv(f'{nodeid}_bme688.csv', [str(datetime.now()), from_node, metrics['temperature'], metrics['relativeHumidity'],
+                log_to_csv(f'./data/{nodeid}_bme688.csv', [str(datetime.now()), from_node, metrics['temperature'], metrics['relativeHumidity'],
                          metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']])
 
             elif 'airQualityMetrics' in telemetry_data:
                 print("PMSA003I")
                 metrics = telemetry_data['airQualityMetrics']
                 print(metrics)
-                log_to_csv(f'{nodeid}_pmsa003i.csv', 
+                log_to_csv(f'./data/{nodeid}_pmsa003i.csv', 
                            [str(datetime.now()), from_node, metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], 
                             metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']])
                 
@@ -54,19 +54,19 @@ def on_receive(packet, interface):
                 print("INA260")
                 metrics = telemetry_data['powerMetrics']
                 print(metrics)
-                log_to_csv(f'{nodeid}_ina260.csv', [str(datetime.now()), from_node, metrics['ch3Voltage']])
+                log_to_csv(f'./data/{nodeid}_ina260.csv', [str(datetime.now()), from_node, metrics['ch3Voltage']])
 
             elif 'deviceMetrics' in telemetry_data:
                 print("Device Metrics")
                 metrics = telemetry_data['deviceMetrics']
                 print(metrics)
-                log_to_csv(f'{nodeid}_device_metrics.csv', [str(datetime.now()), from_node, metrics['batteryLevel'], 
+                log_to_csv(f'./data/{nodeid}_device_metrics.csv', [str(datetime.now()), from_node, metrics['batteryLevel'], 
                     metrics['voltage'], metrics['channelUtilization'], metrics['airUtilTx']]) 
 
             else:
                 print("Other packet")
                 print(telemetry_data)
-                log_to_csv(f'{nodeid}other.csv', [str(datetime.now()), from_node, telemetry_data])
+                log_to_csv(f'./data/{nodeid}other.csv', [str(datetime.now()), from_node, telemetry_data])
 
     except KeyError:
         pass  # Ignore KeyError silently
