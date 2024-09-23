@@ -16,6 +16,10 @@ def log_to_csv(filename, data):
         writer = csv.writer(file)
         writer.writerow(data)
 
+def log_to_txt(filename, data):
+    with open(filename, 'a') as file:
+        file.write(f"{data}\n")
+
 def on_receive(packet, interface):
     """
     Callback reads BME688 and PMSA003I data packets over the e.g. serial interface.
@@ -66,7 +70,10 @@ def on_receive(packet, interface):
             else:
                 print("Other packet")
                 print(telemetry_data)
-                log_to_csv(f'./data/{nodeid}other.csv', [str(datetime.now()), from_node, telemetry_data])
+                log_to_csv(f'./data/{nodeid}_other.csv', [str(datetime.now()), from_node, telemetry_data])
+
+            # log telemetry data
+            log_to_txt(f'./data/{nodeid}_logs.txt', [str(datetime.now()), from_node, telemetry_data])
 
     except KeyError:
         pass  # Ignore KeyError silently
