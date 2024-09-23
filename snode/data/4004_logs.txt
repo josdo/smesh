@@ -40833,3 +40833,12 @@ device_metrics {
   uptime_seconds: 23044
 }
 }]
+['2024-09-22 17:25:40.587622', '0x33644004', {'time': 1727050887, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.216, 'channelUtilization': 15.52, 'airUtilTx': 4.5566945, 'uptimeSeconds': 23104}, 'raw': time: 1727050887
+device_metrics {
+  battery_level: 101
+  voltage: 4.216
+  channel_utilization: 15.52
+  air_util_tx: 4.55669451
+  uptime_seconds: 23104
+}
+}]
