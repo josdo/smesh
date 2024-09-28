@@ -37,7 +37,11 @@ result = subprocess.run(info_command, capture_output=True, text=True)
 
 # Extract the current config
 info_output = result.stdout
-info_data = json.loads(info_output.split("Preferences: ")[1].split("Module preferences: ")[0])
+preference_raw, tail = info_output.split("Preferences: ")[1].split("Module preferences: ")
+module_preference_raw, tail = tail.split("Channels:")
+preference_info = json.loads(preference_raw)
+module_preference_info = json.loads(module_preference_raw)
+info_data = {**preference_info, **module_preference_info}
 
 print("Current parameters")
 pprint.pprint(info_data)
@@ -52,7 +56,6 @@ def snake_to_camel(snake_str):
 for key, expected_value in nondefault_parameters.items():
     module, field = key.split('.')
     camel_field = snake_to_camel(field)
-    print(info_data.get(module))
     actual_value = info_data.get(module, {}).get(camel_field)
     if str(actual_value) == str(expected_value):
         print(f"PASS: {key}")
