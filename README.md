@@ -13,9 +13,9 @@ Files are organized into three directories:
 
 To run any Python code:
 1. Install Poetry by following https://python-poetry.org/docs/#installing-with-pipx
-2. Enter the package you're using, e.g. `cd snode`
-3. Install the Python dependencies the code needs, i.e. `poetry install`
-4. Run a Python script, i.e. `poetry run python PATH/TO/SCRIPT.PY`
+2. Enter the package you're using, e.g., `cd snode`
+3. Install the Python dependencies the code needs, i.e., `poetry install`
+4. Run a Python script, i.e., `poetry run python PATH/TO/SCRIPT.PY`
 
 # Customizing Meshtastic firmware
 Snodes run a stable version of Meshtastic firmware with small modifications.

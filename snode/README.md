@@ -1,3 +1,10 @@
+# Scripts for interfacing with the SNode
+This folder hosts a poetry environment to interface with the SNodes.
+The current scripts are:
+1. [Python] `read_aqi.py` which listens for any nodes that are logging smoke, environmental, etc. data
+2. [Bash] `traceroute_test.sh` which uses the meshtastic CLI to request a network path between notes
+
+
 # Flashing a SNode
 Build the firmware.
 Then configure using
