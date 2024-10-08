@@ -8,3 +8,4 @@ do
   meshtastic --port 'com4' --traceroute '!433f0700'
   echo "$i Jasper Ridge"
   meshtastic --port 'com4' --traceroute '!336918e8'
+done

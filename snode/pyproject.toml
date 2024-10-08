@@ -2,7 +2,7 @@
 name = "snode"
 version = "0.1.0"
 description = ""
-authors = ["someone <someone@somewhere.com>"]
+authors = ["Joshua Dong <kindled@stanford.edu>", "Lisa Fung <lisafung@stanford.edu>", "Daniel Neamati <dneamati@stanford.edu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

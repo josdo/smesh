@@ -3,13 +3,13 @@ import sys
 import os
 import csv
 from datetime import datetime
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from matplotlib.animation import FuncAnimation
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# import matplotlib.dates as mdates
+# from matplotlib.animation import FuncAnimation
 from pubsub import pub
 from meshtastic.serial_interface import SerialInterface
-from meshtastic import portnums_pb2
+# from meshtastic import portnums_pb2
 
 def log_to_csv(filename, data):
     with open(filename, 'a', newline='') as file:
@@ -58,7 +58,7 @@ def format_ina_log(data_dict):
     """
     Format INA260 data to log to csv file while handling possible missing data.
     """
-    expected_keys = ['ch3Voltage']
+    expected_keys = ['ch3Voltage', 'ch3Current']
     return format_to_log(data_dict, expected_keys)
 
 
