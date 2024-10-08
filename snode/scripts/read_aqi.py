@@ -20,6 +20,72 @@ def log_to_txt(filename, data):
     with open(filename, 'a') as file:
         file.write(f"{data}\n")
 
+
+def format_to_log(data_dict, expected_keys):
+    """
+    Format data to log to csv file while handling possible missing data.
+
+    Parameters:
+    - data_dict: dict, data to log
+    - expected_keys: list, keys to expect in the data_dict
+    """
+    data = []
+    for key in expected_keys:
+        if key in data_dict:
+            data.append(data_dict[key])
+        else:
+            data.append(None)
+    return data
+
+
+def format_bme_log(data_dict):
+    """
+    Format BME688 data to log to csv file while handling possible missing data.
+    """
+    expected_keys = ['temperature', 'relativeHumidity', 'barometricPressure', 'gasResistance', 'iaq']
+    return format_to_log(data_dict, expected_keys)
+
+
+def format_pmsa_log(data_dict):
+    """
+    Format PMSA003I data to log to csv file while handling possible missing data.
+    """
+    expected_keys = ['pm10Standard', 'pm25Standard', 'pm100Standard', 'pm10Environmental', 'pm25Environmental', 'pm100Environmental']
+    return format_to_log(data_dict, expected_keys)
+
+
+def format_ina_log(data_dict):
+    """
+    Format INA260 data to log to csv file while handling possible missing data.
+    """
+    expected_keys = ['ch3Voltage']
+    return format_to_log(data_dict, expected_keys)
+
+
+def format_device_metrics_log(data_dict):
+    """
+    Format device metrics data to log to csv file while handling possible missing data.
+    """
+    expected_keys = ['batteryLevel', 'voltage', 'channelUtilization', 'airUtilTx']
+    return format_to_log(data_dict, expected_keys)
+
+
+def log_to_csv_from_preset(filename, curr_date_time, from_node, data_dict, preset):
+    """
+    Use a set of expected preset data to log to csv file while accounting for missing data.
+
+    Parameters:
+    - filename: str, path to the csv file
+    - curr_date_time: str, current date and time
+    - from_node: str, node id
+    - data: list, data to log
+    - preset: function handle, function to format data
+    """
+
+    data_to_log = [curr_date_time, from_node] + preset(data_dict)
+    log_to_csv(filename, data_to_log)
+
+
 def on_receive(packet, interface):
     """
     Callback reads BME688 and PMSA003I data packets over the e.g. serial interface.
@@ -43,29 +109,37 @@ def on_receive(packet, interface):
                 print("BME688")
                 metrics = telemetry_data['environmentMetrics']
                 print(metrics)
-                log_to_csv(f'./data/{nodeid}_bme688.csv', [str(datetime.now()), from_node, metrics['temperature'], metrics['relativeHumidity'],
-                         metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']])
+                # log_to_csv(f'./data/{nodeid}_bme688.csv', [str(datetime.now()), from_node, metrics['temperature'], metrics['relativeHumidity'],
+                #          metrics['barometricPressure'], metrics['gasResistance'], metrics['iaq']])
+                log_to_csv_from_preset(f'./data/{nodeid}_bme688.csv', str(datetime.now()), 
+                                       from_node, metrics, format_bme_log)
 
             elif 'airQualityMetrics' in telemetry_data:
                 print("PMSA003I")
                 metrics = telemetry_data['airQualityMetrics']
                 print(metrics)
-                log_to_csv(f'./data/{nodeid}_pmsa003i.csv', 
-                           [str(datetime.now()), from_node, metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], 
-                            metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']])
+                # log_to_csv(f'./data/{nodeid}_pmsa003i.csv', 
+                #            [str(datetime.now()), from_node, metrics['pm10Standard'], metrics['pm25Standard'], metrics['pm100Standard'], 
+                #             metrics['pm10Environmental'], metrics['pm25Environmental'], metrics['pm100Environmental']])
+                log_to_csv_from_preset(f'./data/{nodeid}_pmsa003i.csv', str(datetime.now()),
+                                       from_node, metrics, format_pmsa_log)
                 
             elif 'powerMetrics' in telemetry_data:
                 print("INA260")
                 metrics = telemetry_data['powerMetrics']
                 print(metrics)
-                log_to_csv(f'./data/{nodeid}_ina260.csv', [str(datetime.now()), from_node, metrics['ch3Voltage']])
+                # log_to_csv(f'./data/{nodeid}_ina260.csv', [str(datetime.now()), from_node, metrics['ch3Voltage']])
+                log_to_csv_from_preset(f'./data/{nodeid}_ina260.csv', str(datetime.now()),
+                                       from_node, metrics, format_ina_log)
 
             elif 'deviceMetrics' in telemetry_data:
                 print("Device Metrics")
                 metrics = telemetry_data['deviceMetrics']
                 print(metrics)
-                log_to_csv(f'./data/{nodeid}_device_metrics.csv', [str(datetime.now()), from_node, metrics['batteryLevel'], 
-                    metrics['voltage'], metrics['channelUtilization'], metrics['airUtilTx']]) 
+                # log_to_csv(f'./data/{nodeid}_device_metrics.csv', [str(datetime.now()), from_node, metrics['batteryLevel'], 
+                #     metrics['voltage'], metrics['channelUtilization'], metrics['airUtilTx']])
+                log_to_csv_from_preset(f'./data/{nodeid}_device_metrics.csv', str(datetime.now()),
+                                       from_node, metrics, format_device_metrics_log)
 
             else:
                 print("Other packet")
