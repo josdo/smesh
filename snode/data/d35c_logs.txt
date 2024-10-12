@@ -1,0 +1,20 @@
+['2024-10-12 11:04:03.700863', '0x336918e8', {'time': 1728756231, 'environmentMetrics': {'temperature': 25.892609, 'relativeHumidity': 40.943737, 'barometricPressure': 1017.24, 'gasResistance': 167.9239, 'voltage': 13.02625, 'current': -1.25, 'iaq': 61}, 'raw': time: 1728756231
+environment_metrics {
+  temperature: 25.8926086
+  relative_humidity: 40.943737
+  barometric_pressure: 1017.24
+  gas_resistance: 167.923904
+  voltage: 13.0262499
+  current: -1.25
+  iaq: 61
+}
+}]
+['2024-10-12 11:04:12.149323', '0x433efcb4', {'time': 1728756247, 'environmentMetrics': {'temperature': 25.898058, 'relativeHumidity': 39.756386, 'barometricPressure': 1016.83844, 'gasResistance': 533.7564, 'iaq': 53}, 'raw': time: 1728756247
+environment_metrics {
+  temperature: 25.8980579
+  relative_humidity: 39.7563858
+  barometric_pressure: 1016.83844
+  gas_resistance: 533.756409
+  iaq: 53
+}
+}]

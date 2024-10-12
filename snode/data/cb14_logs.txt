@@ -1,0 +1,9 @@
+['2024-10-12 10:53:18.377137', '0x433efcb4', {'time': 1728755595, 'environmentMetrics': {'temperature': 25.905615, 'relativeHumidity': 39.51632, 'barometricPressure': 1016.88544, 'gasResistance': 536.3226, 'iaq': 50}, 'raw': time: 1728755595
+environment_metrics {
+  temperature: 25.9056149
+  relative_humidity: 39.5163193
+  barometric_pressure: 1016.88544
+  gas_resistance: 536.322571
+  iaq: 50
+}
+}]

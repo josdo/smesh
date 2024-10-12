@@ -56,6 +56,6 @@ module_config:
     environmentUpdateInterval: 60
     powerMeasurementEnabled: true
     powerUpdateInterval: 300
-owner: SMesh 1
-owner_short: SMesh 1
+owner: SMesh 8
+owner_short: SM8
 
