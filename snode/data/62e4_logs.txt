@@ -346,3 +346,2501 @@ environment_metrics {
   iaq: 115
 }
 }]
+['2024-10-20 09:59:32.467855', '0x336462e4', {'time': 1245, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.199, 'channelUtilization': 4.4866667, 'airUtilTx': 0.5605, 'uptimeSeconds': 1247}, 'raw': time: 1245
+device_metrics {
+  battery_level: 100
+  voltage: 4.199
+  channel_utilization: 4.48666668
+  air_util_tx: 0.5605
+  uptime_seconds: 1247
+}
+}]
+['2024-10-20 09:59:42.321193', '0x433aad0c', {'time': 1331, 'environmentMetrics': {'temperature': 25.782516, 'relativeHumidity': 21.561241, 'barometricPressure': 1017.2989, 'gasResistance': 72.43056, 'voltage': 4.44625, 'current': -1.25, 'iaq': 51}, 'raw': time: 1331
+environment_metrics {
+  temperature: 25.7825165
+  relative_humidity: 21.5612411
+  barometric_pressure: 1017.29889
+  gas_resistance: 72.4305573
+  voltage: 4.44625
+  current: -1.25
+  iaq: 51
+}
+}]
+['2024-10-20 09:59:45.740497', '0x433acb14', {'time': 1485, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.217, 'channelUtilization': 3.365, 'airUtilTx': 0.78011113, 'uptimeSeconds': 1486}, 'raw': time: 1485
+device_metrics {
+  battery_level: 101
+  voltage: 4.217
+  channel_utilization: 3.365
+  air_util_tx: 0.780111134
+  uptime_seconds: 1486
+}
+}]
+['2024-10-20 10:00:11.185965', '0x433acb14', {'time': 1511, 'environmentMetrics': {'temperature': 26.62069, 'relativeHumidity': 20.05508, 'barometricPressure': 1017.37177, 'gasResistance': 78.25543, 'voltage': 4.5625, 'current': -2.5, 'iaq': 50}, 'raw': time: 1511
+environment_metrics {
+  temperature: 26.6206894
+  relative_humidity: 20.0550804
+  barometric_pressure: 1017.37177
+  gas_resistance: 78.2554321
+  voltage: 4.5625
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:00:21.037844', '0x433acb14', {'time': 1521, 'powerMetrics': {'ch3Voltage': 4.58625, 'ch3Current': -3.75}, 'raw': time: 1521
+power_metrics {
+  ch3_voltage: 4.58625
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:00:41.460338', '0x336462e4', {'time': 46, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.201, 'channelUtilization': 13.376667, 'airUtilTx': 0.034194447, 'uptimeSeconds': 46}, 'raw': time: 46
+device_metrics {
+  battery_level: 101
+  voltage: 4.201
+  channel_utilization: 13.376667
+  air_util_tx: 0.0341944471
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:00:42.308539', '0x433aad0c', {'time': 1391, 'environmentMetrics': {'temperature': 25.898958, 'relativeHumidity': 21.531351, 'barometricPressure': 1017.3117, 'gasResistance': 72.367966, 'voltage': 4.4275, 'current': -2.5, 'iaq': 53}, 'raw': time: 1391
+environment_metrics {
+  temperature: 25.8989582
+  relative_humidity: 21.5313511
+  barometric_pressure: 1017.31171
+  gas_resistance: 72.3679657
+  voltage: 4.4275
+  current: -2.5
+  iaq: 53
+}
+}]
+['2024-10-20 10:01:11.173225', '0x433acb14', {'time': 1571, 'environmentMetrics': {'temperature': 26.623325, 'relativeHumidity': 20.040924, 'barometricPressure': 1017.3608, 'gasResistance': 78.47377, 'voltage': 4.58625, 'current': -5.0, 'iaq': 52}, 'raw': time: 1571
+environment_metrics {
+  temperature: 26.6233253
+  relative_humidity: 20.0409241
+  barometric_pressure: 1017.36078
+  gas_resistance: 78.4737701
+  voltage: 4.58625
+  current: -5
+  iaq: 52
+}
+}]
+['2024-10-20 10:01:41.695720', '0x336462e4', {'time': 106, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.185, 'channelUtilization': 2.2433333, 'airUtilTx': 0.06886111, 'uptimeSeconds': 106}, 'raw': time: 106
+device_metrics {
+  battery_level: 99
+  voltage: 4.185
+  channel_utilization: 2.24333334
+  air_util_tx: 0.068861112
+  uptime_seconds: 106
+}
+}]
+['2024-10-20 10:01:42.197695', '0x433aad0c', {'time': 1451, 'environmentMetrics': {'temperature': 25.916435, 'relativeHumidity': 21.460665, 'barometricPressure': 1017.3176, 'gasResistance': 72.180855, 'voltage': 4.45, 'current': -3.75, 'iaq': 54}, 'raw': time: 1451
+environment_metrics {
+  temperature: 25.9164352
+  relative_humidity: 21.4606647
+  barometric_pressure: 1017.31763
+  gas_resistance: 72.1808548
+  voltage: 4.45
+  current: -3.75
+  iaq: 54
+}
+}]
+['2024-10-20 10:02:11.299361', '0x433acb14', {'time': 1631, 'environmentMetrics': {'temperature': 26.705214, 'relativeHumidity': 19.853657, 'barometricPressure': 1017.34827, 'gasResistance': 78.91414, 'voltage': 4.5625, 'current': -3.75, 'iaq': 50}, 'raw': time: 1631
+environment_metrics {
+  temperature: 26.7052135
+  relative_humidity: 19.8536568
+  barometric_pressure: 1017.34827
+  gas_resistance: 78.9141388
+  voltage: 4.5625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:02:16.396641', '0x433aad0c', {'time': 1485, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.23, 'channelUtilization': 4.4866667, 'airUtilTx': 0.93188894, 'uptimeSeconds': 1487}, 'raw': time: 1485
+device_metrics {
+  battery_level: 101
+  voltage: 4.23
+  channel_utilization: 4.48666668
+  air_util_tx: 0.931888938
+  uptime_seconds: 1487
+}
+}]
+['2024-10-20 10:02:41.669979', '0x336462e4', {'time': 166, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.196, 'channelUtilization': 4.186667, 'airUtilTx': 0.08755556, 'uptimeSeconds': 166}, 'raw': time: 166
+device_metrics {
+  battery_level: 100
+  voltage: 4.196
+  channel_utilization: 4.18666697
+  air_util_tx: 0.0875555575
+  uptime_seconds: 166
+}
+}]
+['2024-10-20 10:02:42.217991', '0x433aad0c', {'time': 1511, 'environmentMetrics': {'temperature': 25.946932, 'relativeHumidity': 21.391783, 'barometricPressure': 1017.32227, 'gasResistance': 72.43056, 'voltage': 4.45125, 'current': -2.5, 'iaq': 51}, 'raw': time: 1511
+environment_metrics {
+  temperature: 25.9469318
+  relative_humidity: 21.3917828
+  barometric_pressure: 1017.32227
+  gas_resistance: 72.4305573
+  voltage: 4.45125
+  current: -2.5
+  iaq: 51
+}
+}]
+['2024-10-20 10:02:51.511087', '0x433aad0c', {'time': 1521, 'powerMetrics': {'ch3Voltage': 4.4475, 'ch3Current': -5.0}, 'raw': time: 1521
+power_metrics {
+  ch3_voltage: 4.4475
+  ch3_current: -5
+}
+}]
+['2024-10-20 10:03:11.213523', '0x433acb14', {'time': 1691, 'environmentMetrics': {'temperature': 26.7512, 'relativeHumidity': 19.739359, 'barometricPressure': 1017.374, 'gasResistance': 78.11054, 'voltage': 4.5775, 'current': -5.0, 'iaq': 68}, 'raw': time: 1691
+environment_metrics {
+  temperature: 26.7512
+  relative_humidity: 19.7393589
+  barometric_pressure: 1017.37402
+  gas_resistance: 78.1105423
+  voltage: 4.5775
+  current: -5
+  iaq: 68
+}
+}]
+['2024-10-20 10:03:41.744007', '0x336462e4', {'time': 226, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.183, 'channelUtilization': 3.94, 'airUtilTx': 0.12038889, 'uptimeSeconds': 226}, 'raw': time: 226
+device_metrics {
+  battery_level: 99
+  voltage: 4.183
+  channel_utilization: 3.94
+  air_util_tx: 0.120388888
+  uptime_seconds: 226
+}
+}]
+['2024-10-20 10:03:51.960974', '0x433aad0c', {'time': 11, 'airQualityMetrics': {}, 'raw': time: 11
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:04:01.499654', '0x433aad0c', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.45625, 'ch3Current': -3.75}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.45625
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:04:12.778662', '0x433acb14', {'time': 1751, 'environmentMetrics': {'temperature': 26.83821, 'relativeHumidity': 19.827255, 'barometricPressure': 1017.39764, 'gasResistance': 79.284904, 'voltage': 4.5625, 'current': -3.75, 'iaq': 50}, 'raw': time: 1751
+environment_metrics {
+  temperature: 26.8382092
+  relative_humidity: 19.8272552
+  barometric_pressure: 1017.39764
+  gas_resistance: 79.2849045
+  voltage: 4.5625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:04:25.956477', '0x433aad0c', {'time': 45, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.226, 'channelUtilization': 7.5833335, 'airUtilTx': 0.0445, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 101
+  voltage: 4.226
+  channel_utilization: 7.58333349
+  air_util_tx: 0.0445
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:04:41.740177', '0x336462e4', {'time': 286, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.221, 'channelUtilization': 9.5, 'airUtilTx': 0.15322223, 'uptimeSeconds': 286}, 'raw': time: 286
+device_metrics {
+  battery_level: 101
+  voltage: 4.221
+  channel_utilization: 9.5
+  air_util_tx: 0.153222233
+  uptime_seconds: 286
+}
+}]
+['2024-10-20 10:04:53.478946', '0x433aad0c', {'time': 71, 'environmentMetrics': {'temperature': 26.306114, 'relativeHumidity': 22.334879, 'barometricPressure': 1017.382, 'gasResistance': 68.46348, 'voltage': 4.45125, 'current': -3.75, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 26.3061142
+  relative_humidity: 22.3348789
+  barometric_pressure: 1017.38202
+  gas_resistance: 68.4634781
+  voltage: 4.45125
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:04:54.181865', '0x433aad0c', {'time': 71, 'airQualityMetrics': {}, 'raw': time: 71
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:05:11.291862', '0x433acb14', {'time': 1811, 'environmentMetrics': {'temperature': 26.866508, 'relativeHumidity': 19.679514, 'barometricPressure': 1017.35834, 'gasResistance': 79.65918, 'voltage': 4.58, 'current': -3.75, 'iaq': 50}, 'raw': time: 1811
+environment_metrics {
+  temperature: 26.8665085
+  relative_humidity: 19.6795139
+  barometric_pressure: 1017.35834
+  gas_resistance: 79.6591797
+  voltage: 4.58
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:05:20.619701', '0x433acb14', {'time': 1821, 'powerMetrics': {'ch3Voltage': 4.5875, 'ch3Current': -2.5}, 'raw': time: 1821
+power_metrics {
+  ch3_voltage: 4.5875
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:05:41.642476', '0x336462e4', {'time': 346, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.216, 'channelUtilization': 7.6366663, 'airUtilTx': 0.21686111, 'uptimeSeconds': 346}, 'raw': time: 346
+device_metrics {
+  battery_level: 101
+  voltage: 4.216
+  channel_utilization: 7.6366663
+  air_util_tx: 0.216861114
+  uptime_seconds: 346
+}
+}]
+['2024-10-20 10:05:45.568402', '0x433acb14', {'time': 1846, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.205, 'channelUtilization': 7.6366663, 'airUtilTx': 1.0090277, 'uptimeSeconds': 1847}, 'raw': time: 1846
+device_metrics {
+  battery_level: 101
+  voltage: 4.205
+  channel_utilization: 7.6366663
+  air_util_tx: 1.00902772
+  uptime_seconds: 1847
+}
+}]
+['2024-10-20 10:05:52.207634', '0x433aad0c', {'time': 131, 'environmentMetrics': {'temperature': 26.454866, 'relativeHumidity': 21.413185, 'barometricPressure': 1017.3542, 'gasResistance': 70.71808, 'voltage': 4.45, 'current': -5.0, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 26.4548664
+  relative_humidity: 21.4131851
+  barometric_pressure: 1017.35419
+  gas_resistance: 70.7180786
+  voltage: 4.45
+  current: -5
+  iaq: 50
+}
+}]
+['2024-10-20 10:05:52.992308', '0x433aad0c', {'time': 131, 'airQualityMetrics': {}, 'raw': time: 131
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:06:11.766345', '0x433acb14', {'time': 1871, 'environmentMetrics': {'temperature': 26.874075, 'relativeHumidity': 19.613646, 'barometricPressure': 1017.38007, 'gasResistance': 79.509056, 'voltage': 4.56125, 'current': -3.75, 'iaq': 52}, 'raw': time: 1871
+environment_metrics {
+  temperature: 26.8740749
+  relative_humidity: 19.6136456
+  barometric_pressure: 1017.38007
+  gas_resistance: 79.5090561
+  voltage: 4.56125
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:06:41.788496', '0x336462e4', {'time': 406, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.246, 'channelUtilization': 6.911667, 'airUtilTx': 0.26636112, 'uptimeSeconds': 406}, 'raw': time: 406
+device_metrics {
+  battery_level: 101
+  voltage: 4.246
+  channel_utilization: 6.91166687
+  air_util_tx: 0.266361117
+  uptime_seconds: 406
+}
+}]
+['2024-10-20 10:06:52.291468', '0x433aad0c', {'time': 191, 'environmentMetrics': {'temperature': 26.551308, 'relativeHumidity': 21.263336, 'barometricPressure': 1017.3562, 'gasResistance': 71.994705, 'voltage': 4.44875, 'current': -3.75, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 26.5513077
+  relative_humidity: 21.2633362
+  barometric_pressure: 1017.3562
+  gas_resistance: 71.9947052
+  voltage: 4.44875
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:06:52.890355', '0x433aad0c', {'time': 191, 'airQualityMetrics': {}, 'raw': time: 191
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:07:11.258263', '0x433acb14', {'time': 1931, 'environmentMetrics': {'temperature': 26.886871, 'relativeHumidity': 19.460934, 'barometricPressure': 1017.3746, 'gasResistance': 80.11299, 'voltage': 4.58625, 'current': -2.5, 'iaq': 50}, 'raw': time: 1931
+environment_metrics {
+  temperature: 26.8868713
+  relative_humidity: 19.4609337
+  barometric_pressure: 1017.37457
+  gas_resistance: 80.1129913
+  voltage: 4.58625
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:07:41.781715', '0x336462e4', {'time': 466, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.191, 'channelUtilization': 5.94, 'airUtilTx': 0.29716668, 'uptimeSeconds': 466}, 'raw': time: 466
+device_metrics {
+  battery_level: 100
+  voltage: 4.191
+  channel_utilization: 5.94
+  air_util_tx: 0.297166675
+  uptime_seconds: 466
+}
+}]
+['2024-10-20 10:07:52.344251', '0x433aad0c', {'time': 251, 'environmentMetrics': {'temperature': 26.609472, 'relativeHumidity': 21.55619, 'barometricPressure': 1017.3728, 'gasResistance': 71.3203, 'voltage': 4.44875, 'current': -2.5, 'iaq': 50}, 'raw': time: 251
+environment_metrics {
+  temperature: 26.6094723
+  relative_humidity: 21.5561905
+  barometric_pressure: 1017.3728
+  gas_resistance: 71.3203
+  voltage: 4.44875
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:07:52.972635', '0x433aad0c', {'time': 252, 'airQualityMetrics': {}, 'raw': time: 252
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:08:11.337381', '0x433acb14', {'time': 1991, 'environmentMetrics': {'temperature': 26.894585, 'relativeHumidity': 19.74134, 'barometricPressure': 1017.3944, 'gasResistance': 80.49514, 'voltage': 4.5625, 'current': -3.75, 'iaq': 50}, 'raw': time: 1991
+environment_metrics {
+  temperature: 26.8945847
+  relative_humidity: 19.7413406
+  barometric_pressure: 1017.39441
+  gas_resistance: 80.4951401
+  voltage: 4.5625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:08:41.862256', '0x336462e4', {'time': 526, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.217, 'channelUtilization': 5.94, 'airUtilTx': 0.32797223, 'uptimeSeconds': 526}, 'raw': time: 526
+device_metrics {
+  battery_level: 101
+  voltage: 4.217
+  channel_utilization: 5.94
+  air_util_tx: 0.327972233
+  uptime_seconds: 526
+}
+}]
+['2024-10-20 10:09:11.786508', '0x433acb14', {'time': 2051, 'environmentMetrics': {'temperature': 26.96872, 'relativeHumidity': 19.711626, 'barometricPressure': 1017.4015, 'gasResistance': 79.73446, 'voltage': 4.58, 'current': -2.5, 'iaq': 52}, 'raw': time: 2051
+environment_metrics {
+  temperature: 26.9687195
+  relative_humidity: 19.7116261
+  barometric_pressure: 1017.40149
+  gas_resistance: 79.7344589
+  voltage: 4.58
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:09:41.848094', '0x336462e4', {'time': 586, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.229, 'channelUtilization': 2.2433333, 'airUtilTx': 0.34666666, 'uptimeSeconds': 586}, 'raw': time: 586
+device_metrics {
+  battery_level: 101
+  voltage: 4.229
+  channel_utilization: 2.24333334
+  air_util_tx: 0.346666664
+  uptime_seconds: 586
+}
+}]
+['2024-10-20 10:10:11.970659', '0x433acb14', {'time': 2111, 'environmentMetrics': {'temperature': 26.99435, 'relativeHumidity': 19.346407, 'barometricPressure': 1017.4262, 'gasResistance': 81.19227, 'voltage': 4.5625, 'current': -3.75, 'iaq': 50}, 'raw': time: 2111
+environment_metrics {
+  temperature: 26.9943504
+  relative_humidity: 19.3464069
+  barometric_pressure: 1017.42621
+  gas_resistance: 81.1922684
+  voltage: 4.5625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:10:20.896447', '0x433acb14', {'time': 2121, 'powerMetrics': {'ch3Voltage': 4.5625, 'ch3Current': -2.5}, 'raw': time: 2121
+power_metrics {
+  ch3_voltage: 4.5625
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:10:22.569460', '0x43590ff4', {'time': 659750, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.208, 'channelUtilization': 2.2433333, 'airUtilTx': 0.79266673, 'uptimeSeconds': 659752}, 'raw': time: 659750
+device_metrics {
+  battery_level: 101
+  voltage: 4.208
+  channel_utilization: 2.24333334
+  air_util_tx: 0.792666733
+  uptime_seconds: 659752
+}
+}]
+['2024-10-20 10:10:41.842454', '0x336462e4', {'time': 646, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.187, 'channelUtilization': 5.91, 'airUtilTx': 0.3653611, 'uptimeSeconds': 646}, 'raw': time: 646
+device_metrics {
+  battery_level: 99
+  voltage: 4.187
+  channel_utilization: 5.91
+  air_util_tx: 0.365361094
+  uptime_seconds: 646
+}
+}]
+['2024-10-20 10:11:11.756139', '0x433acb14', {'time': 2171, 'environmentMetrics': {'temperature': 27.007109, 'relativeHumidity': 19.289976, 'barometricPressure': 1017.4242, 'gasResistance': 80.57201, 'voltage': 4.5825, 'current': -3.75, 'iaq': 53}, 'raw': time: 2171
+environment_metrics {
+  temperature: 27.0071087
+  relative_humidity: 19.2899761
+  barometric_pressure: 1017.42419
+  gas_resistance: 80.5720062
+  voltage: 4.5825
+  current: -3.75
+  iaq: 53
+}
+}]
+['2024-10-20 10:11:41.790451', '0x336462e4', {'time': 706, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.219, 'channelUtilization': 2.2433333, 'airUtilTx': 0.38405555, 'uptimeSeconds': 707}, 'raw': time: 706
+device_metrics {
+  battery_level: 101
+  voltage: 4.219
+  channel_utilization: 2.24333334
+  air_util_tx: 0.384055555
+  uptime_seconds: 707
+}
+}]
+['2024-10-20 10:11:46.191387', '0x433acb14', {'time': 2206, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.204, 'channelUtilization': 2.2433333, 'airUtilTx': 1.1866388, 'uptimeSeconds': 2207}, 'raw': time: 2206
+device_metrics {
+  battery_level: 101
+  voltage: 4.204
+  channel_utilization: 2.24333334
+  air_util_tx: 1.18663883
+  uptime_seconds: 2207
+}
+}]
+['2024-10-20 10:12:11.268052', '0x433acb14', {'time': 2231, 'environmentMetrics': {'temperature': 27.007147, 'relativeHumidity': 19.401253, 'barometricPressure': 1017.42926, 'gasResistance': 80.88094, 'voltage': 4.56375, 'current': -3.75, 'iaq': 52}, 'raw': time: 2231
+environment_metrics {
+  temperature: 27.0071468
+  relative_humidity: 19.4012527
+  barometric_pressure: 1017.42926
+  gas_resistance: 80.8809433
+  voltage: 4.56375
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:12:41.839246', '0x336462e4', {'time': 766, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.225, 'channelUtilization': 3.2150002, 'airUtilTx': 0.40275, 'uptimeSeconds': 767}, 'raw': time: 766
+device_metrics {
+  battery_level: 101
+  voltage: 4.225
+  channel_utilization: 3.21500015
+  air_util_tx: 0.40275
+  uptime_seconds: 767
+}
+}]
+['2024-10-20 10:13:11.974374', '0x433acb14', {'time': 2291, 'environmentMetrics': {'temperature': 27.042933, 'relativeHumidity': 19.890179, 'barometricPressure': 1017.4374, 'gasResistance': 80.34184, 'voltage': 4.58125, 'current': -3.75, 'iaq': 51}, 'raw': time: 2291
+environment_metrics {
+  temperature: 27.0429325
+  relative_humidity: 19.8901787
+  barometric_pressure: 1017.43738
+  gas_resistance: 80.3418427
+  voltage: 4.58125
+  current: -3.75
+  iaq: 51
+}
+}]
+['2024-10-20 10:13:42.005887', '0x336462e4', {'time': 826, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.244, 'channelUtilization': 2.2433333, 'airUtilTx': 0.40275, 'uptimeSeconds': 827}, 'raw': time: 826
+device_metrics {
+  battery_level: 101
+  voltage: 4.244
+  channel_utilization: 2.24333334
+  air_util_tx: 0.40275
+  uptime_seconds: 827
+}
+}]
+['2024-10-20 10:14:11.961951', '0x433acb14', {'time': 2351, 'environmentMetrics': {'temperature': 27.10443, 'relativeHumidity': 19.415634, 'barometricPressure': 1017.4567, 'gasResistance': 80.64902, 'voltage': 4.55875, 'current': -2.5, 'iaq': 50}, 'raw': time: 2351
+environment_metrics {
+  temperature: 27.1044292
+  relative_humidity: 19.4156342
+  barometric_pressure: 1017.45673
+  gas_resistance: 80.6490173
+  voltage: 4.55875
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:14:42.039787', '0x336462e4', {'time': 886, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.172, 'channelUtilization': 2.2433333, 'airUtilTx': 0.40275, 'uptimeSeconds': 887}, 'raw': time: 886
+device_metrics {
+  battery_level: 98
+  voltage: 4.172
+  channel_utilization: 2.24333334
+  air_util_tx: 0.40275
+  uptime_seconds: 887
+}
+}]
+['2024-10-20 10:14:54.688691', '0x433acb14', {'time': 11, 'airQualityMetrics': {}, 'raw': time: 11
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:15:03.746402', '0x433acb14', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.565, 'ch3Current': -2.5}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.565
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:15:28.704972', '0x433acb14', {'time': 45, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.221, 'channelUtilization': 10.320001, 'airUtilTx': 0.0445, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 101
+  voltage: 4.221
+  channel_utilization: 10.3200006
+  air_util_tx: 0.0445
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:15:42.037366', '0x336462e4', {'time': 946, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.18, 'channelUtilization': 12.236667, 'airUtilTx': 0.4926111, 'uptimeSeconds': 947}, 'raw': time: 946
+device_metrics {
+  battery_level: 99
+  voltage: 4.18
+  channel_utilization: 12.2366667
+  air_util_tx: 0.49261111
+  uptime_seconds: 947
+}
+}]
+['2024-10-20 10:15:54.905868', '0x433acb14', {'time': 71, 'airQualityMetrics': {}, 'raw': time: 71
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:15:55.762111', '0x433acb14', {'time': 71, 'environmentMetrics': {'temperature': 27.396275, 'relativeHumidity': 19.52399, 'barometricPressure': 1017.62274, 'gasResistance': 78.11054, 'voltage': 4.5625, 'current': -3.75, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 27.3962746
+  relative_humidity: 19.5239906
+  barometric_pressure: 1017.62274
+  gas_resistance: 78.1105423
+  voltage: 4.5625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:16:42.059740', '0x336462e4', {'time': 1006, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.202, 'channelUtilization': 3.6966667, 'airUtilTx': 0.52091664, 'uptimeSeconds': 1007}, 'raw': time: 1006
+device_metrics {
+  battery_level: 101
+  voltage: 4.202
+  channel_utilization: 3.69666672
+  air_util_tx: 0.520916641
+  uptime_seconds: 1007
+}
+}]
+['2024-10-20 10:16:55.061141', '0x433acb14', {'time': 131, 'environmentMetrics': {'temperature': 27.291313, 'relativeHumidity': 19.37728, 'barometricPressure': 1017.3594, 'gasResistance': 79.88544, 'voltage': 4.585, 'current': -1.25, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 27.2913132
+  relative_humidity: 19.3772793
+  barometric_pressure: 1017.35938
+  gas_resistance: 79.885437
+  voltage: 4.585
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:16:55.653956', '0x433acb14', {'time': 131, 'airQualityMetrics': {}, 'raw': time: 131
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:17:42.235859', '0x336462e4', {'time': 1066, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.201, 'channelUtilization': 3.6966667, 'airUtilTx': 0.5517222, 'uptimeSeconds': 1067}, 'raw': time: 1066
+device_metrics {
+  battery_level: 101
+  voltage: 4.201
+  channel_utilization: 3.69666672
+  air_util_tx: 0.551722229
+  uptime_seconds: 1067
+}
+}]
+['2024-10-20 10:17:54.796076', '0x433acb14', {'time': 191, 'airQualityMetrics': {}, 'raw': time: 191
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:17:55.689634', '0x433acb14', {'time': 191, 'environmentMetrics': {'temperature': 27.26057, 'relativeHumidity': 19.190104, 'barometricPressure': 1017.3464, 'gasResistance': 80.41841, 'voltage': 4.5775, 'current': -5.0, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 27.2605705
+  relative_humidity: 19.1901035
+  barometric_pressure: 1017.34637
+  gas_resistance: 80.4184113
+  voltage: 4.5775
+  current: -5
+  iaq: 50
+}
+}]
+['2024-10-20 10:18:42.241502', '0x336462e4', {'time': 1126, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.155, 'channelUtilization': 3.6966667, 'airUtilTx': 0.5825278, 'uptimeSeconds': 1127}, 'raw': time: 1126
+device_metrics {
+  battery_level: 97
+  voltage: 4.155
+  channel_utilization: 3.69666672
+  air_util_tx: 0.582527816
+  uptime_seconds: 1127
+}
+}]
+['2024-10-20 10:18:55.048134', '0x433acb14', {'time': 251, 'environmentMetrics': {'temperature': 27.306707, 'relativeHumidity': 19.366343, 'barometricPressure': 1017.33594, 'gasResistance': 81.19227, 'voltage': 4.5875, 'current': -2.5, 'iaq': 50}, 'raw': time: 251
+environment_metrics {
+  temperature: 27.3067074
+  relative_humidity: 19.3663425
+  barometric_pressure: 1017.33594
+  gas_resistance: 81.1922684
+  voltage: 4.5875
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:18:55.660315', '0x433acb14', {'time': 252, 'airQualityMetrics': {}, 'raw': time: 252
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:19:42.260077', '0x336462e4', {'time': 1186, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.211, 'channelUtilization': 3.6966667, 'airUtilTx': 0.5825278, 'uptimeSeconds': 1187}, 'raw': time: 1186
+device_metrics {
+  battery_level: 101
+  voltage: 4.211
+  channel_utilization: 3.69666672
+  air_util_tx: 0.582527816
+  uptime_seconds: 1187
+}
+}]
+['2024-10-20 10:19:55.057465', '0x433acb14', {'time': 311, 'environmentMetrics': {'temperature': 27.283638, 'relativeHumidity': 19.29395, 'barometricPressure': 1017.33765, 'gasResistance': 81.34884, 'voltage': 4.585, 'current': -2.5, 'iaq': 50}, 'raw': time: 311
+environment_metrics {
+  temperature: 27.283638
+  relative_humidity: 19.2939491
+  barometric_pressure: 1017.33765
+  gas_resistance: 81.3488388
+  voltage: 4.585
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:19:55.513499', '0x433acb14', {'time': 312, 'airQualityMetrics': {}, 'raw': time: 312
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:20:03.428421', '0x433acb14', {'time': 320, 'powerMetrics': {'ch3Voltage': 4.59, 'ch3Current': -3.75}, 'raw': time: 320
+power_metrics {
+  ch3_voltage: 4.59
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:20:42.216818', '0x336462e4', {'time': 1246, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.187, 'channelUtilization': 5.3933334, 'airUtilTx': 0.5946389, 'uptimeSeconds': 1247}, 'raw': time: 1246
+device_metrics {
+  battery_level: 99
+  voltage: 4.187
+  channel_utilization: 5.39333344
+  air_util_tx: 0.594638884
+  uptime_seconds: 1247
+}
+}]
+['2024-10-20 10:20:55.046651', '0x433acb14', {'time': 371, 'environmentMetrics': {'temperature': 27.242844, 'relativeHumidity': 19.371456, 'barometricPressure': 1017.3602, 'gasResistance': 81.663765, 'voltage': 4.58625, 'current': -3.75, 'iaq': 50}, 'raw': time: 371
+environment_metrics {
+  temperature: 27.2428436
+  relative_humidity: 19.3714561
+  barometric_pressure: 1017.36023
+  gas_resistance: 81.663765
+  voltage: 4.58625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:20:55.544405', '0x433acb14', {'time': 372, 'airQualityMetrics': {}, 'raw': time: 372
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:21:28.432126', '0x433acb14', {'time': 405, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.189, 'channelUtilization': 3.6966667, 'airUtilTx': 0.27563888, 'uptimeSeconds': 406}, 'raw': time: 405
+device_metrics {
+  battery_level: 99
+  voltage: 4.189
+  channel_utilization: 3.69666672
+  air_util_tx: 0.275638878
+  uptime_seconds: 406
+}
+}]
+['2024-10-20 10:21:42.213588', '0x336462e4', {'time': 1306, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.182, 'channelUtilization': 5.6400003, 'airUtilTx': 0.6229444, 'uptimeSeconds': 1307}, 'raw': time: 1306
+device_metrics {
+  battery_level: 99
+  voltage: 4.182
+  channel_utilization: 5.64000034
+  air_util_tx: 0.622944415
+  uptime_seconds: 1307
+}
+}]
+['2024-10-20 10:21:54.631784', '0x433acb14', {'time': 431, 'environmentMetrics': {'temperature': 27.268282, 'relativeHumidity': 19.44721, 'barometricPressure': 1017.3475, 'gasResistance': 81.036316, 'voltage': 4.58875, 'current': -3.75, 'iaq': 52}, 'raw': time: 431
+environment_metrics {
+  temperature: 27.2682819
+  relative_humidity: 19.4472103
+  barometric_pressure: 1017.34747
+  gas_resistance: 81.0363159
+  voltage: 4.58875
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:21:55.705801', '0x433acb14', {'time': 432, 'airQualityMetrics': {'pm100Standard': 1, 'pm100Environmental': 1}, 'raw': time: 432
+air_quality_metrics {
+  pm100_standard: 1
+  pm100_environmental: 1
+}
+}]
+['2024-10-20 10:22:42.272562', '0x336462e4', {'time': 1366, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.167, 'channelUtilization': 3.8033333, 'airUtilTx': 0.6416389, 'uptimeSeconds': 1367}, 'raw': time: 1366
+device_metrics {
+  battery_level: 98
+  voltage: 4.167
+  channel_utilization: 3.80333328
+  air_util_tx: 0.641638875
+  uptime_seconds: 1367
+}
+}]
+['2024-10-20 10:22:54.827859', '0x433acb14', {'time': 491, 'environmentMetrics': {'temperature': 27.401354, 'relativeHumidity': 19.455942, 'barometricPressure': 1017.33466, 'gasResistance': 80.57201, 'voltage': 4.5875, 'current': -3.75, 'iaq': 52}, 'raw': time: 491
+environment_metrics {
+  temperature: 27.4013538
+  relative_humidity: 19.4559422
+  barometric_pressure: 1017.33466
+  gas_resistance: 80.5720062
+  voltage: 4.5875
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:22:56.179875', '0x433acb14', {'time': 492, 'airQualityMetrics': {}, 'raw': time: 492
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:23:42.276306', '0x336462e4', {'time': 1427, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.204, 'channelUtilization': 3.6966667, 'airUtilTx': 0.6724444, 'uptimeSeconds': 1427}, 'raw': time: 1427
+device_metrics {
+  battery_level: 101
+  voltage: 4.204
+  channel_utilization: 3.69666672
+  air_util_tx: 0.672444403
+  uptime_seconds: 1427
+}
+}]
+['2024-10-20 10:23:54.614198', '0x433acb14', {'time': 551, 'environmentMetrics': {'temperature': 27.432064, 'relativeHumidity': 19.215908, 'barometricPressure': 1017.32043, 'gasResistance': 81.58481, 'voltage': 4.5875, 'current': -2.5, 'iaq': 50}, 'raw': time: 551
+environment_metrics {
+  temperature: 27.4320641
+  relative_humidity: 19.2159081
+  barometric_pressure: 1017.32043
+  gas_resistance: 81.5848083
+  voltage: 4.5875
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:23:56.210066', '0x433acb14', {'time': 553, 'airQualityMetrics': {}, 'raw': time: 553
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:24:42.486429', '0x336462e4', {'time': 1487, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.202, 'channelUtilization': 3.6966667, 'airUtilTx': 0.70325, 'uptimeSeconds': 1487}, 'raw': time: 1487
+device_metrics {
+  battery_level: 101
+  voltage: 4.202
+  channel_utilization: 3.69666672
+  air_util_tx: 0.70325
+  uptime_seconds: 1487
+}
+}]
+['2024-10-20 10:24:54.649288', '0x433acb14', {'time': 611, 'environmentMetrics': {'temperature': 27.452501, 'relativeHumidity': 19.3281, 'barometricPressure': 1017.30035, 'gasResistance': 81.11421, 'voltage': 4.5875, 'current': -1.25, 'iaq': 53}, 'raw': time: 611
+environment_metrics {
+  temperature: 27.4525013
+  relative_humidity: 19.3281
+  barometric_pressure: 1017.30035
+  gas_resistance: 81.114212
+  voltage: 4.5875
+  current: -1.25
+  iaq: 53
+}
+}]
+['2024-10-20 10:24:56.849610', '0x433acb14', {'time': 613, 'airQualityMetrics': {}, 'raw': time: 613
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:25:03.661154', '0x433acb14', {'time': 620, 'powerMetrics': {'ch3Voltage': 4.56625, 'ch3Current': -2.5}, 'raw': time: 620
+power_metrics {
+  ch3_voltage: 4.56625
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:25:42.435552', '0x336462e4', {'time': 1547, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.209, 'channelUtilization': 5.3933334, 'airUtilTx': 0.7153611, 'uptimeSeconds': 1547}, 'raw': time: 1547
+device_metrics {
+  battery_level: 101
+  voltage: 4.209
+  channel_utilization: 5.39333344
+  air_util_tx: 0.715361118
+  uptime_seconds: 1547
+}
+}]
+['2024-10-20 10:25:55.250458', '0x433acb14', {'time': 671, 'environmentMetrics': {'temperature': 27.521633, 'relativeHumidity': 19.119549, 'barometricPressure': 1017.31555, 'gasResistance': 81.036316, 'voltage': 4.58875, 'current': -3.75, 'iaq': 53}, 'raw': time: 671
+environment_metrics {
+  temperature: 27.5216331
+  relative_humidity: 19.1195488
+  barometric_pressure: 1017.31555
+  gas_resistance: 81.0363159
+  voltage: 4.58875
+  current: -3.75
+  iaq: 53
+}
+}]
+['2024-10-20 10:25:56.436039', '0x433acb14', {'time': 673, 'airQualityMetrics': {}, 'raw': time: 673
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:26:13.146955', '0x433aad0c', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.48125, 'ch3Current': -3.75}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.48125
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:26:23.693106', '0x433ad35c', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.40875, 'ch3Current': -2.5}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.40875
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:26:37.378328', '0x433aad0c', {'time': 45, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.211, 'channelUtilization': 10.455, 'airUtilTx': 0.033055555, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 101
+  voltage: 4.211
+  channel_utilization: 10.455
+  air_util_tx: 0.0330555551
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:26:42.494104', '0x336462e4', {'time': 1607, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.179, 'channelUtilization': 13.466666, 'airUtilTx': 0.77922225, 'uptimeSeconds': 1607}, 'raw': time: 1607
+device_metrics {
+  battery_level: 99
+  voltage: 4.179
+  channel_utilization: 13.4666662
+  air_util_tx: 0.77922225
+  uptime_seconds: 1607
+}
+}]
+['2024-10-20 10:26:48.686094', '0x433ad35c', {'time': 45, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.201, 'channelUtilization': 10.865, 'airUtilTx': 0.046527777, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 101
+  voltage: 4.201
+  channel_utilization: 10.865
+  air_util_tx: 0.0465277769
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:26:51.354570', '0x433b0b38', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.45625, 'ch3Current': -2.5}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.45625
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:26:54.630582', '0x433acb14', {'time': 731, 'environmentMetrics': {'temperature': 27.53638, 'relativeHumidity': 19.164043, 'barometricPressure': 1017.2747, 'gasResistance': 81.036316, 'voltage': 4.58875, 'current': -5.0, 'iaq': 54}, 'raw': time: 731
+environment_metrics {
+  temperature: 27.5363808
+  relative_humidity: 19.1640434
+  barometric_pressure: 1017.27472
+  gas_resistance: 81.0363159
+  voltage: 4.58875
+  current: -5
+  iaq: 54
+}
+}]
+['2024-10-20 10:26:56.674669', '0x433acb14', {'time': 733, 'airQualityMetrics': {}, 'raw': time: 733
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:27:03.666877', '0x433aad0c', {'time': 71, 'environmentMetrics': {'temperature': 24.5785, 'relativeHumidity': 23.451687, 'barometricPressure': 1017.25824, 'gasResistance': 61.749794, 'voltage': 4.48, 'current': -2.5, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 24.5785
+  relative_humidity: 23.4516869
+  barometric_pressure: 1017.25824
+  gas_resistance: 61.749794
+  voltage: 4.48
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:27:14.662130', '0x433b0b38', {'time': 45, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.198, 'channelUtilization': 13.66, 'airUtilTx': 0.06705556, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 100
+  voltage: 4.198
+  channel_utilization: 13.66
+  air_util_tx: 0.0670555606
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:27:17.665311', '0x433ad35c', {'time': 71, 'environmentMetrics': {'temperature': 23.089796, 'relativeHumidity': 25.28836, 'barometricPressure': 1017.2168, 'gasResistance': 25.654463, 'voltage': 4.39125, 'current': -3.75, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 23.0897961
+  relative_humidity: 25.2883606
+  barometric_pressure: 1017.2168
+  gas_resistance: 25.6544628
+  voltage: 4.39125
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:27:29.523544', '0x433acb14', {'time': 765, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.222, 'channelUtilization': 17.82, 'airUtilTx': 0.50994444, 'uptimeSeconds': 766}, 'raw': time: 765
+device_metrics {
+  battery_level: 101
+  voltage: 4.222
+  channel_utilization: 17.82
+  air_util_tx: 0.509944439
+  uptime_seconds: 766
+}
+}]
+['2024-10-20 10:27:40.961915', '0x433b0b38', {'time': 71, 'environmentMetrics': {'temperature': 22.601034, 'relativeHumidity': 23.596746, 'barometricPressure': 1016.6542, 'gasResistance': 29.277218, 'voltage': 4.44, 'current': -2.5, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 22.6010342
+  relative_humidity: 23.5967464
+  barometric_pressure: 1016.65417
+  gas_resistance: 29.2772179
+  voltage: 4.44
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:27:42.484266', '0x336462e4', {'time': 1667, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.193, 'channelUtilization': 14.861668, 'airUtilTx': 0.79791665, 'uptimeSeconds': 1667}, 'raw': time: 1667
+device_metrics {
+  battery_level: 100
+  voltage: 4.193
+  channel_utilization: 14.8616676
+  air_util_tx: 0.797916651
+  uptime_seconds: 1667
+}
+}]
+['2024-10-20 10:27:54.695759', '0x433acb14', {'time': 791, 'environmentMetrics': {'temperature': 27.641834, 'relativeHumidity': 19.067596, 'barometricPressure': 1017.2637, 'gasResistance': 80.64902, 'voltage': 4.59, 'current': -5.0, 'iaq': 55}, 'raw': time: 791
+environment_metrics {
+  temperature: 27.6418343
+  relative_humidity: 19.0675964
+  barometric_pressure: 1017.26367
+  gas_resistance: 80.6490173
+  voltage: 4.59
+  current: -5
+  iaq: 55
+}
+}]
+['2024-10-20 10:27:57.917318', '0x433acb14', {'time': 793, 'airQualityMetrics': {}, 'raw': time: 793
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:28:03.716160', '0x433aad0c', {'time': 131, 'environmentMetrics': {'temperature': 24.762463, 'relativeHumidity': 22.762115, 'barometricPressure': 1017.2507, 'gasResistance': 70.71808, 'voltage': 4.455, 'current': -2.5, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 24.7624626
+  relative_humidity: 22.7621155
+  barometric_pressure: 1017.25067
+  gas_resistance: 70.7180786
+  voltage: 4.455
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:28:14.990488', '0x433ad35c', {'time': 131, 'environmentMetrics': {'temperature': 23.402962, 'relativeHumidity': 24.796795, 'barometricPressure': 1017.20105, 'gasResistance': 35.504913, 'voltage': 4.4125, 'current': -2.5, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 23.4029617
+  relative_humidity: 24.7967949
+  barometric_pressure: 1017.20105
+  gas_resistance: 35.5049133
+  voltage: 4.4125
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:28:41.528072', '0x433b0b38', {'time': 131, 'environmentMetrics': {'temperature': 22.878532, 'relativeHumidity': 23.224052, 'barometricPressure': 1016.6087, 'gasResistance': 44.47533, 'voltage': 4.46, 'current': -3.75, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 22.8785324
+  relative_humidity: 23.2240524
+  barometric_pressure: 1016.6087
+  gas_resistance: 44.4753304
+  voltage: 4.46
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:28:42.549118', '0x336462e4', {'time': 1727, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.173, 'channelUtilization': 9.305, 'airUtilTx': 0.82872224, 'uptimeSeconds': 1727}, 'raw': time: 1727
+device_metrics {
+  battery_level: 98
+  voltage: 4.173
+  channel_utilization: 9.305
+  air_util_tx: 0.828722239
+  uptime_seconds: 1727
+}
+}]
+['2024-10-20 10:28:54.689839', '0x433acb14', {'time': 851, 'environmentMetrics': {'temperature': 27.606007, 'relativeHumidity': 18.905989, 'barometricPressure': 1017.2659, 'gasResistance': 81.42733, 'voltage': 4.58875, 'current': -2.5, 'iaq': 52}, 'raw': time: 851
+environment_metrics {
+  temperature: 27.6060066
+  relative_humidity: 18.9059887
+  barometric_pressure: 1017.26593
+  gas_resistance: 81.42733
+  voltage: 4.58875
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:28:57.640229', '0x433acb14', {'time': 854, 'airQualityMetrics': {}, 'raw': time: 854
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:29:03.716994', '0x433aad0c', {'time': 191, 'environmentMetrics': {'temperature': 24.93745, 'relativeHumidity': 22.498312, 'barometricPressure': 1017.21765, 'gasResistance': 73.83539, 'voltage': 4.47625, 'current': -3.75, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 24.9374504
+  relative_humidity: 22.498312
+  barometric_pressure: 1017.21765
+  gas_resistance: 73.8353882
+  voltage: 4.47625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:29:15.006640', '0x433ad35c', {'time': 191, 'environmentMetrics': {'temperature': 23.743774, 'relativeHumidity': 24.25195, 'barometricPressure': 1017.2259, 'gasResistance': 40.533066, 'voltage': 4.39125, 'current': -2.5, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 23.7437744
+  relative_humidity: 24.2519493
+  barometric_pressure: 1017.22589
+  gas_resistance: 40.5330658
+  voltage: 4.39125
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:29:41.001243', '0x433b0b38', {'time': 191, 'environmentMetrics': {'temperature': 23.1845, 'relativeHumidity': 22.84822, 'barometricPressure': 1016.64496, 'gasResistance': 53.894737, 'voltage': 4.44, 'current': -3.75, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 23.1845
+  relative_humidity: 22.8482208
+  barometric_pressure: 1016.64496
+  gas_resistance: 53.8947372
+  voltage: 4.44
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:29:42.543170', '0x336462e4', {'time': 1787, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.15, 'channelUtilization': 9.305, 'airUtilTx': 0.85952777, 'uptimeSeconds': 1787}, 'raw': time: 1787
+device_metrics {
+  battery_level: 97
+  voltage: 4.15
+  channel_utilization: 9.305
+  air_util_tx: 0.859527767
+  uptime_seconds: 1787
+}
+}]
+['2024-10-20 10:29:54.767112', '0x433acb14', {'time': 911, 'environmentMetrics': {'temperature': 27.60612, 'relativeHumidity': 18.925085, 'barometricPressure': 1017.2487, 'gasResistance': 80.88094, 'voltage': 4.58875, 'current': -3.75, 'iaq': 59}, 'raw': time: 911
+environment_metrics {
+  temperature: 27.6061192
+  relative_humidity: 18.9250851
+  barometric_pressure: 1017.24872
+  gas_resistance: 80.8809433
+  voltage: 4.58875
+  current: -3.75
+  iaq: 59
+}
+}]
+['2024-10-20 10:29:58.083317', '0x433acb14', {'time': 914, 'airQualityMetrics': {}, 'raw': time: 914
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:30:03.773279', '0x433aad0c', {'time': 251, 'environmentMetrics': {'temperature': 25.137423, 'relativeHumidity': 22.295689, 'barometricPressure': 1017.2369, 'gasResistance': 74.49212, 'voltage': 4.455, 'current': -5.0, 'iaq': 50}, 'raw': time: 251
+environment_metrics {
+  temperature: 25.1374226
+  relative_humidity: 22.2956886
+  barometric_pressure: 1017.23688
+  gas_resistance: 74.4921188
+  voltage: 4.455
+  current: -5
+  iaq: 50
+}
+}]
+['2024-10-20 10:30:05.777823', '0x433acb14', {'time': 920, 'powerMetrics': {'ch3Voltage': 4.59, 'ch3Current': -3.75}, 'raw': time: 920
+power_metrics {
+  ch3_voltage: 4.59
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:30:15.047883', '0x433ad35c', {'time': 251, 'environmentMetrics': {'temperature': 24.031921, 'relativeHumidity': 23.946548, 'barometricPressure': 1017.2108, 'gasResistance': 43.019756, 'voltage': 4.41375, 'current': -1.25, 'iaq': 50}, 'raw': time: 251
+environment_metrics {
+  temperature: 24.0319214
+  relative_humidity: 23.9465485
+  barometric_pressure: 1017.21082
+  gas_resistance: 43.0197563
+  voltage: 4.41375
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:30:42.612637', '0x336462e4', {'time': 1847, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.181, 'channelUtilization': 11.85, 'airUtilTx': 0.85952777, 'uptimeSeconds': 1847}, 'raw': time: 1847
+device_metrics {
+  battery_level: 99
+  voltage: 4.181
+  channel_utilization: 11.85
+  air_util_tx: 0.859527767
+  uptime_seconds: 1847
+}
+}]
+['2024-10-20 10:30:46.968368', '0x433b0b38', {'time': 13, 'airQualityMetrics': {}, 'raw': time: 13
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:30:55.400691', '0x433b0b38', {'time': 22, 'powerMetrics': {'ch3Voltage': 4.44125, 'ch3Current': -3.75}, 'raw': time: 22
+power_metrics {
+  ch3_voltage: 4.44125
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:30:56.953160', '0x433aad0c', {'time': 11, 'airQualityMetrics': {}, 'raw': time: 11
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:30:58.497373', '0x433ad35c', {'time': 11, 'airQualityMetrics': {}, 'raw': time: 11
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:31:00.406148', '0x433acb14', {'time': 974, 'airQualityMetrics': {}, 'raw': time: 974
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:31:01.398155', '0x433acb14', {'time': 971, 'environmentMetrics': {'temperature': 27.713224, 'relativeHumidity': 19.243336, 'barometricPressure': 1017.53015, 'gasResistance': 72.41247, 'voltage': 4.58625, 'current': -2.5, 'iaq': 83}, 'raw': time: 971
+environment_metrics {
+  temperature: 27.7132244
+  relative_humidity: 19.2433357
+  barometric_pressure: 1017.53015
+  gas_resistance: 72.412468
+  voltage: 4.58625
+  current: -2.5
+  iaq: 83
+}
+}]
+['2024-10-20 10:31:06.070627', '0x433aad0c', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.4775, 'ch3Current': -5.0}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.4775
+  ch3_current: -5
+}
+}]
+['2024-10-20 10:31:08.401066', '0x433ad35c', {'time': 20, 'powerMetrics': {'ch3Voltage': 4.39375, 'ch3Current': -2.5}, 'raw': time: 20
+power_metrics {
+  ch3_voltage: 4.39375
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:31:21.818789', '0x433b0b38', {'time': 47, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.229, 'channelUtilization': 26.9, 'airUtilTx': 0.09375, 'uptimeSeconds': 46}, 'raw': time: 47
+device_metrics {
+  battery_level: 101
+  voltage: 4.229
+  channel_utilization: 26.9
+  air_util_tx: 0.09375
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:31:30.611720', '0x433aad0c', {'time': 45, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.219, 'channelUtilization': 30.335001, 'airUtilTx': 0.11611111, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 101
+  voltage: 4.219
+  channel_utilization: 30.335001
+  air_util_tx: 0.116111107
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:31:34.296608', '0x433ad35c', {'time': 45, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.16, 'channelUtilization': 28.5, 'airUtilTx': 0.07938889, 'uptimeSeconds': 46}, 'raw': time: 45
+device_metrics {
+  battery_level: 97
+  voltage: 4.16
+  channel_utilization: 28.5
+  air_util_tx: 0.0793888867
+  uptime_seconds: 46
+}
+}]
+['2024-10-20 10:31:42.818515', '0x336462e4', {'time': 1907, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.182, 'channelUtilization': 35.14, 'airUtilTx': 0.9206944, 'uptimeSeconds': 1907}, 'raw': time: 1907
+device_metrics {
+  battery_level: 99
+  voltage: 4.182
+  channel_utilization: 35.14
+  air_util_tx: 0.920694411
+  uptime_seconds: 1907
+}
+}]
+['2024-10-20 10:31:46.507418', '0x433b0b38', {'time': 73, 'environmentMetrics': {'temperature': 23.79402, 'relativeHumidity': 22.189674, 'barometricPressure': 1016.6356, 'gasResistance': 61.776062, 'voltage': 4.43625, 'current': -1.25, 'iaq': 50}, 'raw': time: 73
+environment_metrics {
+  temperature: 23.7940197
+  relative_humidity: 22.1896744
+  barometric_pressure: 1016.63562
+  gas_resistance: 61.776062
+  voltage: 4.43625
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:31:46.999438', '0x433b0b38', {'time': 73, 'airQualityMetrics': {}, 'raw': time: 73
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:31:54.841444', '0x433acb14', {'time': 1031, 'environmentMetrics': {'temperature': 27.616505, 'relativeHumidity': 18.97994, 'barometricPressure': 1017.30054, 'gasResistance': 80.26541, 'voltage': 4.58875, 'current': -3.75, 'iaq': 58}, 'raw': time: 1031
+environment_metrics {
+  temperature: 27.6165047
+  relative_humidity: 18.9799404
+  barometric_pressure: 1017.30054
+  gas_resistance: 80.2654114
+  voltage: 4.58875
+  current: -3.75
+  iaq: 58
+}
+}]
+['2024-10-20 10:31:57.639374', '0x433aad0c', {'time': 71, 'environmentMetrics': {'temperature': 25.592924, 'relativeHumidity': 22.400373, 'barometricPressure': 1017.22675, 'gasResistance': 67.03862, 'voltage': 4.475, 'current': -1.25, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 25.5929241
+  relative_humidity: 22.4003735
+  barometric_pressure: 1017.22675
+  gas_resistance: 67.03862
+  voltage: 4.475
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:31:58.300654', '0x433aad0c', {'time': 71, 'airQualityMetrics': {}, 'raw': time: 71
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:32:01.007232', '0x433ad35c', {'time': 71, 'environmentMetrics': {'temperature': 24.545347, 'relativeHumidity': 23.456697, 'barometricPressure': 1017.2119, 'gasResistance': 45.78163, 'voltage': 4.41125, 'current': -1.25, 'iaq': 50}, 'raw': time: 71
+environment_metrics {
+  temperature: 24.5453472
+  relative_humidity: 23.4566975
+  barometric_pressure: 1017.21191
+  gas_resistance: 45.7816315
+  voltage: 4.41125
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:32:01.468234', '0x433ad35c', {'time': 71, 'airQualityMetrics': {}, 'raw': time: 71
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:32:42.743385', '0x336462e4', {'time': 1967, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.18, 'channelUtilization': 14.455, 'airUtilTx': 0.9888889, 'uptimeSeconds': 1967}, 'raw': time: 1967
+device_metrics {
+  battery_level: 99
+  voltage: 4.18
+  channel_utilization: 14.455
+  air_util_tx: 0.988888919
+  uptime_seconds: 1967
+}
+}]
+['2024-10-20 10:32:46.349534', '0x433b0b38', {'time': 133, 'environmentMetrics': {'temperature': 24.035711, 'relativeHumidity': 21.857197, 'barometricPressure': 1016.6546, 'gasResistance': 64.925186, 'voltage': 4.4525, 'current': -3.75, 'iaq': 50}, 'raw': time: 133
+environment_metrics {
+  temperature: 24.0357113
+  relative_humidity: 21.8571968
+  barometric_pressure: 1016.6546
+  gas_resistance: 64.9251862
+  voltage: 4.4525
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:32:46.806718', '0x433b0b38', {'time': 134, 'airQualityMetrics': {}, 'raw': time: 134
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:32:54.828553', '0x433acb14', {'time': 1091, 'environmentMetrics': {'temperature': 27.64714, 'relativeHumidity': 18.85762, 'barometricPressure': 1017.3205, 'gasResistance': 81.663765, 'voltage': 4.5875, 'current': -3.75, 'iaq': 51}, 'raw': time: 1091
+environment_metrics {
+  temperature: 27.6471405
+  relative_humidity: 18.8576202
+  barometric_pressure: 1017.3205
+  gas_resistance: 81.663765
+  voltage: 4.5875
+  current: -3.75
+  iaq: 51
+}
+}]
+['2024-10-20 10:32:57.313528', '0x433aad0c', {'time': 131, 'airQualityMetrics': {}, 'raw': time: 131
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:32:58.147630', '0x433aad0c', {'time': 131, 'environmentMetrics': {'temperature': 25.835508, 'relativeHumidity': 21.670893, 'barometricPressure': 1017.24164, 'gasResistance': 74.09669, 'voltage': 4.47375, 'current': -2.5, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 25.8355083
+  relative_humidity: 21.6708927
+  barometric_pressure: 1017.24164
+  gas_resistance: 74.0966873
+  voltage: 4.47375
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:33:00.279562', '0x433ad35c', {'time': 132, 'airQualityMetrics': {}, 'raw': time: 132
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:33:01.205584', '0x433ad35c', {'time': 131, 'environmentMetrics': {'temperature': 24.784096, 'relativeHumidity': 22.917624, 'barometricPressure': 1017.226, 'gasResistance': 47.061882, 'voltage': 4.4125, 'current': -1.25, 'iaq': 50}, 'raw': time: 131
+environment_metrics {
+  temperature: 24.7840958
+  relative_humidity: 22.9176235
+  barometric_pressure: 1017.22601
+  gas_resistance: 47.061882
+  voltage: 4.4125
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:33:28.868108', '0x433acb14', {'time': 1125, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.22, 'channelUtilization': 11.816667, 'airUtilTx': 0.91744447, 'uptimeSeconds': 1126}, 'raw': time: 1125
+device_metrics {
+  battery_level: 101
+  voltage: 4.22
+  channel_utilization: 11.8166666
+  air_util_tx: 0.917444468
+  uptime_seconds: 1126
+}
+}]
+['2024-10-20 10:33:42.890292', '0x336462e4', {'time': 2027, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.153, 'channelUtilization': 15.276666, 'airUtilTx': 1.038389, 'uptimeSeconds': 2027}, 'raw': time: 2027
+device_metrics {
+  battery_level: 97
+  voltage: 4.153
+  channel_utilization: 15.2766657
+  air_util_tx: 1.03838897
+  uptime_seconds: 2027
+}
+}]
+['2024-10-20 10:33:46.508757', '0x433b0b38', {'time': 193, 'environmentMetrics': {'temperature': 24.23615, 'relativeHumidity': 21.590471, 'barometricPressure': 1016.6675, 'gasResistance': 66.23544, 'voltage': 4.4325, 'current': -3.75, 'iaq': 50}, 'raw': time: 193
+environment_metrics {
+  temperature: 24.2361507
+  relative_humidity: 21.5904713
+  barometric_pressure: 1016.66748
+  gas_resistance: 66.2354431
+  voltage: 4.4325
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:33:47.054537', '0x433b0b38', {'time': 194, 'airQualityMetrics': {}, 'raw': time: 194
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:33:54.782643', '0x433acb14', {'time': 1151, 'environmentMetrics': {'temperature': 27.716122, 'relativeHumidity': 18.71187, 'barometricPressure': 1017.27545, 'gasResistance': 82.06089, 'voltage': 4.59, 'current': -3.75, 'iaq': 50}, 'raw': time: 1151
+environment_metrics {
+  temperature: 27.7161217
+  relative_humidity: 18.7118702
+  barometric_pressure: 1017.27545
+  gas_resistance: 82.0608902
+  voltage: 4.59
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:33:57.856619', '0x433aad0c', {'time': 191, 'environmentMetrics': {'temperature': 25.99487, 'relativeHumidity': 21.323826, 'barometricPressure': 1017.2473, 'gasResistance': 74.62488, 'voltage': 4.475, 'current': -3.75, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 25.9948692
+  relative_humidity: 21.3238258
+  barometric_pressure: 1017.24731
+  gas_resistance: 74.6248779
+  voltage: 4.475
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:33:58.432880', '0x433aad0c', {'time': 191, 'airQualityMetrics': {}, 'raw': time: 191
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:34:00.548560', '0x433acb14', {'time': 1155, 'airQualityMetrics': {}, 'raw': time: 1155
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:34:02.296434', '0x433ad35c', {'time': 191, 'environmentMetrics': {'temperature': 24.994148, 'relativeHumidity': 22.63145, 'barometricPressure': 1017.2302, 'gasResistance': 47.675022, 'voltage': 4.385, 'current': -3.75, 'iaq': 50}, 'raw': time: 191
+environment_metrics {
+  temperature: 24.9941483
+  relative_humidity: 22.6314507
+  barometric_pressure: 1017.23022
+  gas_resistance: 47.6750221
+  voltage: 4.385
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:34:02.876605', '0x433ad35c', {'time': 192, 'airQualityMetrics': {}, 'raw': time: 192
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:34:42.900048', '0x336462e4', {'time': 2087, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.148, 'channelUtilization': 14.786667, 'airUtilTx': 1.1495, 'uptimeSeconds': 2087}, 'raw': time: 2087
+device_metrics {
+  battery_level: 97
+  voltage: 4.148
+  channel_utilization: 14.7866669
+  air_util_tx: 1.1495
+  uptime_seconds: 2087
+}
+}]
+['2024-10-20 10:34:46.382895', '0x433b0b38', {'time': 253, 'environmentMetrics': {'temperature': 24.431639, 'relativeHumidity': 21.324326, 'barometricPressure': 1016.65466, 'gasResistance': 68.63271, 'voltage': 4.45875, 'current': -2.5, 'iaq': 50}, 'raw': time: 253
+environment_metrics {
+  temperature: 24.4316387
+  relative_humidity: 21.3243256
+  barometric_pressure: 1016.65466
+  gas_resistance: 68.6327133
+  voltage: 4.45875
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:34:47.056917', '0x433b0b38', {'time': 254, 'airQualityMetrics': {}, 'raw': time: 254
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:34:54.803381', '0x433acb14', {'time': 1211, 'environmentMetrics': {'temperature': 27.74427, 'relativeHumidity': 18.619265, 'barometricPressure': 1017.2584, 'gasResistance': 82.38138, 'voltage': 4.575, 'current': -3.75, 'iaq': 50}, 'raw': time: 1211
+environment_metrics {
+  temperature: 27.7442703
+  relative_humidity: 18.6192646
+  barometric_pressure: 1017.25842
+  gas_resistance: 82.3813782
+  voltage: 4.575
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:34:58.190778', '0x433aad0c', {'time': 252, 'airQualityMetrics': {}, 'raw': time: 252
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:34:59.118790', '0x433aad0c', {'time': 251, 'environmentMetrics': {'temperature': 26.144037, 'relativeHumidity': 21.103233, 'barometricPressure': 1017.259, 'gasResistance': 74.89181, 'voltage': 4.4525, 'current': -3.75, 'iaq': 50}, 'raw': time: 251
+environment_metrics {
+  temperature: 26.1440372
+  relative_humidity: 21.1032333
+  barometric_pressure: 1017.25897
+  gas_resistance: 74.8918076
+  voltage: 4.4525
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:35:01.672827', '0x433ad35c', {'time': 252, 'environmentMetrics': {'temperature': 25.176516, 'relativeHumidity': 22.356256, 'barometricPressure': 1017.23816, 'gasResistance': 48.277378, 'voltage': 4.4125, 'current': -1.25, 'iaq': 50}, 'raw': time: 252
+environment_metrics {
+  temperature: 25.1765156
+  relative_humidity: 22.3562565
+  barometric_pressure: 1017.23816
+  gas_resistance: 48.2773781
+  voltage: 4.4125
+  current: -1.25
+  iaq: 50
+}
+}]
+['2024-10-20 10:35:02.273203', '0x433ad35c', {'time': 253, 'airQualityMetrics': {}, 'raw': time: 253
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:35:04.316657', '0x433acb14', {'time': 1215, 'airQualityMetrics': {}, 'raw': time: 1215
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:35:05.050556', '0x433acb14', {'time': 1221, 'powerMetrics': {'ch3Voltage': 4.58875, 'ch3Current': -3.75}, 'raw': time: 1221
+power_metrics {
+  ch3_voltage: 4.58875
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:35:42.826006', '0x336462e4', {'time': 2147, 'deviceMetrics': {'batteryLevel': 96, 'voltage': 4.138, 'channelUtilization': 16.483334, 'airUtilTx': 1.2419167, 'uptimeSeconds': 2147}, 'raw': time: 2147
+device_metrics {
+  battery_level: 96
+  voltage: 4.138
+  channel_utilization: 16.4833336
+  air_util_tx: 1.24191666
+  uptime_seconds: 2147
+}
+}]
+['2024-10-20 10:35:46.399134', '0x433b0b38', {'time': 313, 'environmentMetrics': {'temperature': 24.616726, 'relativeHumidity': 21.158222, 'barometricPressure': 1016.65216, 'gasResistance': 69.357895, 'voltage': 4.4375, 'current': -3.75, 'iaq': 50}, 'raw': time: 313
+environment_metrics {
+  temperature: 24.6167259
+  relative_humidity: 21.1582222
+  barometric_pressure: 1016.65216
+  gas_resistance: 69.3578949
+  voltage: 4.4375
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:35:47.061512', '0x433b0b38', {'time': 314, 'airQualityMetrics': {}, 'raw': time: 314
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:35:54.820970', '0x433acb14', {'time': 1271, 'environmentMetrics': {'temperature': 27.79297, 'relativeHumidity': 18.492065, 'barometricPressure': 1017.2521, 'gasResistance': 82.22082, 'voltage': 4.5875, 'current': -2.5, 'iaq': 52}, 'raw': time: 1271
+environment_metrics {
+  temperature: 27.7929707
+  relative_humidity: 18.4920654
+  barometric_pressure: 1017.25208
+  gas_resistance: 82.2208176
+  voltage: 4.5875
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:35:56.771046', '0x433b0b38', {'time': 322, 'powerMetrics': {'ch3Voltage': 4.46, 'ch3Current': -3.75}, 'raw': time: 322
+power_metrics {
+  ch3_voltage: 4.46
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:35:59.385933', '0x433acb14', {'time': 1275, 'airQualityMetrics': {}, 'raw': time: 1275
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:36:02.081927', '0x433aad0c', {'time': 312, 'airQualityMetrics': {}, 'raw': time: 312
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:36:04.197746', '0x433aad0c', {'time': 311, 'environmentMetrics': {'temperature': 26.259686, 'relativeHumidity': 20.956022, 'barometricPressure': 1017.28015, 'gasResistance': 75.16064, 'voltage': 4.46375, 'current': -5.0, 'iaq': 50}, 'raw': time: 311
+environment_metrics {
+  temperature: 26.2596855
+  relative_humidity: 20.9560223
+  barometric_pressure: 1017.28015
+  gas_resistance: 75.1606369
+  voltage: 4.46375
+  current: -5
+  iaq: 50
+}
+}]
+['2024-10-20 10:36:06.530817', '0x433aad0c', {'time': 320, 'powerMetrics': {'ch3Voltage': 4.47875, 'ch3Current': -3.75}, 'raw': time: 320
+power_metrics {
+  ch3_voltage: 4.47875
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:36:08.616734', '0x433ad35c', {'time': 312, 'environmentMetrics': {'temperature': 25.403614, 'relativeHumidity': 22.116728, 'barometricPressure': 1017.2286, 'gasResistance': 48.416405, 'voltage': 4.29625, 'current': -3.75, 'iaq': 50}, 'raw': time: 312
+environment_metrics {
+  temperature: 25.403614
+  relative_humidity: 22.1167278
+  barometric_pressure: 1017.22858
+  gas_resistance: 48.4164047
+  voltage: 4.29625
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:36:09.261814', '0x433ad35c', {'time': 320, 'powerMetrics': {'ch3Voltage': 4.41125, 'ch3Current': -1.25}, 'raw': time: 320
+power_metrics {
+  ch3_voltage: 4.41125
+  ch3_current: -1.25
+}
+}]
+['2024-10-20 10:36:09.891417', '0x433ad35c', {'time': 313, 'airQualityMetrics': {}, 'raw': time: 313
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:36:42.981840', '0x336462e4', {'time': 2207, 'deviceMetrics': {'batteryLevel': 99, 'voltage': 4.177, 'channelUtilization': 22.793333, 'airUtilTx': 1.3172222, 'uptimeSeconds': 2207}, 'raw': time: 2207
+device_metrics {
+  battery_level: 99
+  voltage: 4.177
+  channel_utilization: 22.7933331
+  air_util_tx: 1.31722224
+  uptime_seconds: 2207
+}
+}]
+['2024-10-20 10:36:46.488639', '0x433b0b38', {'time': 373, 'environmentMetrics': {'temperature': 24.773571, 'relativeHumidity': 20.924673, 'barometricPressure': 1016.6527, 'gasResistance': 69.9836, 'voltage': 4.4575, 'current': -2.5, 'iaq': 39}, 'raw': time: 373
+environment_metrics {
+  temperature: 24.773571
+  relative_humidity: 20.9246731
+  barometric_pressure: 1016.65271
+  gas_resistance: 69.9836
+  voltage: 4.4575
+  current: -2.5
+  iaq: 39
+}
+}]
+['2024-10-20 10:36:47.300694', '0x433b0b38', {'time': 374, 'airQualityMetrics': {}, 'raw': time: 374
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:36:54.950611', '0x433acb14', {'time': 1331, 'environmentMetrics': {'temperature': 27.772387, 'relativeHumidity': 18.439535, 'barometricPressure': 1017.25146, 'gasResistance': 82.542564, 'voltage': 4.5625, 'current': -2.5, 'iaq': 55}, 'raw': time: 1331
+environment_metrics {
+  temperature: 27.7723866
+  relative_humidity: 18.4395351
+  barometric_pressure: 1017.25146
+  gas_resistance: 82.5425644
+  voltage: 4.5625
+  current: -2.5
+  iaq: 55
+}
+}]
+['2024-10-20 10:36:57.481033', '0x433aad0c', {'time': 371, 'environmentMetrics': {'temperature': 26.295921, 'relativeHumidity': 20.820038, 'barometricPressure': 1017.2409, 'gasResistance': 75.29579, 'voltage': 4.4525, 'current': -3.75, 'iaq': 54}, 'raw': time: 371
+environment_metrics {
+  temperature: 26.2959213
+  relative_humidity: 20.8200378
+  barometric_pressure: 1017.24091
+  gas_resistance: 75.2957916
+  voltage: 4.4525
+  current: -3.75
+  iaq: 54
+}
+}]
+['2024-10-20 10:36:58.388545', '0x433aad0c', {'time': 372, 'airQualityMetrics': {}, 'raw': time: 372
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:37:01.029109', '0x433ad35c', {'time': 372, 'environmentMetrics': {'temperature': 25.494968, 'relativeHumidity': 21.952677, 'barometricPressure': 1017.2076, 'gasResistance': 48.809986, 'voltage': 4.39125, 'current': -3.75, 'iaq': 38}, 'raw': time: 372
+environment_metrics {
+  temperature: 25.4949684
+  relative_humidity: 21.9526768
+  barometric_pressure: 1017.20758
+  gas_resistance: 48.8099861
+  voltage: 4.39125
+  current: -3.75
+  iaq: 38
+}
+}]
+['2024-10-20 10:37:01.649736', '0x433ad35c', {'time': 373, 'airQualityMetrics': {}, 'raw': time: 373
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:37:03.931729', '0x433acb14', {'time': 1335, 'airQualityMetrics': {}, 'raw': time: 1335
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:37:19.961431', '0x433b0b38', {'time': 407, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.167, 'channelUtilization': 14.786667, 'airUtilTx': 0.45491666, 'uptimeSeconds': 406}, 'raw': time: 407
+device_metrics {
+  battery_level: 98
+  voltage: 4.167
+  channel_utilization: 14.7866669
+  air_util_tx: 0.454916656
+  uptime_seconds: 406
+}
+}]
+['2024-10-20 10:37:30.702901', '0x433aad0c', {'time': 405, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.254, 'channelUtilization': 16.73, 'airUtilTx': 0.42094445, 'uptimeSeconds': 406}, 'raw': time: 405
+device_metrics {
+  battery_level: 101
+  voltage: 4.254
+  channel_utilization: 16.73
+  air_util_tx: 0.420944452
+  uptime_seconds: 406
+}
+}]
+['2024-10-20 10:37:33.361367', '0x433ad35c', {'time': 405, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.19, 'channelUtilization': 17.701666, 'airUtilTx': 0.40044445, 'uptimeSeconds': 406}, 'raw': time: 405
+device_metrics {
+  battery_level: 100
+  voltage: 4.19
+  channel_utilization: 17.7016659
+  air_util_tx: 0.400444448
+  uptime_seconds: 406
+}
+}]
+['2024-10-20 10:37:42.884925', '0x336462e4', {'time': 2267, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.207, 'channelUtilization': 19.495, 'airUtilTx': 1.4041111, 'uptimeSeconds': 2268}, 'raw': time: 2267
+device_metrics {
+  battery_level: 101
+  voltage: 4.207
+  channel_utilization: 19.495
+  air_util_tx: 1.40411115
+  uptime_seconds: 2268
+}
+}]
+['2024-10-20 10:37:46.440202', '0x433b0b38', {'time': 433, 'environmentMetrics': {'temperature': 24.945803, 'relativeHumidity': 20.777983, 'barometricPressure': 1016.64606, 'gasResistance': 71.15064, 'voltage': 4.435, 'current': -2.5, 'iaq': 44}, 'raw': time: 433
+environment_metrics {
+  temperature: 24.9458027
+  relative_humidity: 20.7779827
+  barometric_pressure: 1016.64606
+  gas_resistance: 71.1506424
+  voltage: 4.435
+  current: -2.5
+  iaq: 44
+}
+}]
+['2024-10-20 10:37:47.595853', '0x433b0b38', {'time': 435, 'airQualityMetrics': {'pm100Standard': 1, 'pm100Environmental': 1}, 'raw': time: 435
+air_quality_metrics {
+  pm100_standard: 1
+  pm100_environmental: 1
+}
+}]
+['2024-10-20 10:37:54.967912', '0x433acb14', {'time': 1391, 'environmentMetrics': {'temperature': 27.735762, 'relativeHumidity': 18.499315, 'barometricPressure': 1017.22797, 'gasResistance': 81.19227, 'voltage': 4.58875, 'current': -3.75, 'iaq': 75}, 'raw': time: 1391
+environment_metrics {
+  temperature: 27.7357616
+  relative_humidity: 18.4993153
+  barometric_pressure: 1017.22797
+  gas_resistance: 81.1922684
+  voltage: 4.58875
+  current: -3.75
+  iaq: 75
+}
+}]
+['2024-10-20 10:37:58.649606', '0x433aad0c', {'time': 433, 'airQualityMetrics': {}, 'raw': time: 433
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:37:59.640815', '0x433aad0c', {'time': 431, 'environmentMetrics': {'temperature': 26.417274, 'relativeHumidity': 20.755144, 'barometricPressure': 1017.2471, 'gasResistance': 74.89181, 'voltage': 4.47625, 'current': -2.5, 'iaq': 52}, 'raw': time: 431
+environment_metrics {
+  temperature: 26.4172745
+  relative_humidity: 20.7551441
+  barometric_pressure: 1017.24707
+  gas_resistance: 74.8918076
+  voltage: 4.47625
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:38:01.848754', '0x433ad35c', {'time': 433, 'airQualityMetrics': {}, 'raw': time: 433
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:38:02.880766', '0x433ad35c', {'time': 432, 'environmentMetrics': {'temperature': 25.635231, 'relativeHumidity': 21.721292, 'barometricPressure': 1017.2294, 'gasResistance': 49.066387, 'voltage': 4.415, 'current': -3.75, 'iaq': 50}, 'raw': time: 432
+environment_metrics {
+  temperature: 25.635231
+  relative_humidity: 21.7212925
+  barometric_pressure: 1017.22937
+  gas_resistance: 49.0663872
+  voltage: 4.415
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:38:05.053619', '0x433acb14', {'time': 1396, 'airQualityMetrics': {}, 'raw': time: 1396
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:38:42.855648', '0x336462e4', {'time': 2327, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.196, 'channelUtilization': 12.991667, 'airUtilTx': 1.5152222, 'uptimeSeconds': 2328}, 'raw': time: 2327
+device_metrics {
+  battery_level: 100
+  voltage: 4.196
+  channel_utilization: 12.9916668
+  air_util_tx: 1.51522219
+  uptime_seconds: 2328
+}
+}]
+['2024-10-20 10:38:46.611048', '0x433b0b38', {'time': 493, 'environmentMetrics': {'temperature': 25.092512, 'relativeHumidity': 20.59204, 'barometricPressure': 1016.65857, 'gasResistance': 71.80926, 'voltage': 4.45375, 'current': -2.5, 'iaq': 50}, 'raw': time: 493
+environment_metrics {
+  temperature: 25.0925121
+  relative_humidity: 20.5920391
+  barometric_pressure: 1016.65857
+  gas_resistance: 71.8092575
+  voltage: 4.45375
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:38:47.795328', '0x433b0b38', {'time': 495, 'airQualityMetrics': {}, 'raw': time: 495
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:38:54.880422', '0x433acb14', {'time': 1451, 'environmentMetrics': {'temperature': 27.708447, 'relativeHumidity': 18.576298, 'barometricPressure': 1017.2623, 'gasResistance': 82.06089, 'voltage': 4.56375, 'current': -5.0, 'iaq': 57}, 'raw': time: 1451
+environment_metrics {
+  temperature: 27.7084465
+  relative_humidity: 18.5762978
+  barometric_pressure: 1017.26233
+  gas_resistance: 82.0608902
+  voltage: 4.56375
+  current: -5
+  iaq: 57
+}
+}]
+['2024-10-20 10:38:58.356817', '0x433aad0c', {'time': 491, 'environmentMetrics': {'temperature': 26.518318, 'relativeHumidity': 20.58952, 'barometricPressure': 1017.2616, 'gasResistance': 75.29579, 'voltage': 4.47125, 'current': -2.5, 'iaq': 51}, 'raw': time: 491
+environment_metrics {
+  temperature: 26.5183182
+  relative_humidity: 20.5895195
+  barometric_pressure: 1017.2616
+  gas_resistance: 75.2957916
+  voltage: 4.47125
+  current: -2.5
+  iaq: 51
+}
+}]
+['2024-10-20 10:38:58.814784', '0x433aad0c', {'time': 493, 'airQualityMetrics': {}, 'raw': time: 493
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:39:01.289413', '0x433ad35c', {'time': 492, 'environmentMetrics': {'temperature': 25.753809, 'relativeHumidity': 21.582722, 'barometricPressure': 1017.23456, 'gasResistance': 48.98062, 'voltage': 4.41625, 'current': -2.5, 'iaq': 50}, 'raw': time: 492
+environment_metrics {
+  temperature: 25.753809
+  relative_humidity: 21.5827217
+  barometric_pressure: 1017.23456
+  gas_resistance: 48.9806213
+  voltage: 4.41625
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:39:01.749199', '0x433ad35c', {'time': 494, 'airQualityMetrics': {}, 'raw': time: 494
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:39:04.011154', '0x433acb14', {'time': 1456, 'airQualityMetrics': {}, 'raw': time: 1456
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:39:29.601994', '0x433acb14', {'time': 1485, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.163, 'channelUtilization': 14.786667, 'airUtilTx': 1.2480278, 'uptimeSeconds': 1486}, 'raw': time: 1485
+device_metrics {
+  battery_level: 98
+  voltage: 4.163
+  channel_utilization: 14.7866669
+  air_util_tx: 1.2480278
+  uptime_seconds: 1486
+}
+}]
+['2024-10-20 10:39:42.886818', '0x336462e4', {'time': 2387, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.208, 'channelUtilization': 14.155001, 'airUtilTx': 1.5273334, 'uptimeSeconds': 2388}, 'raw': time: 2387
+device_metrics {
+  battery_level: 101
+  voltage: 4.208
+  channel_utilization: 14.1550007
+  air_util_tx: 1.52733338
+  uptime_seconds: 2388
+}
+}]
+['2024-10-20 10:39:47.048755', '0x433b0b38', {'time': 553, 'environmentMetrics': {'temperature': 25.220963, 'relativeHumidity': 20.50052, 'barometricPressure': 1016.6348, 'gasResistance': 71.38873, 'voltage': 4.4275, 'current': -1.25, 'iaq': 52}, 'raw': time: 553
+environment_metrics {
+  temperature: 25.2209625
+  relative_humidity: 20.5005207
+  barometric_pressure: 1016.63483
+  gas_resistance: 71.3887329
+  voltage: 4.4275
+  current: -1.25
+  iaq: 52
+}
+}]
+['2024-10-20 10:39:48.021814', '0x433b0b38', {'time': 555, 'airQualityMetrics': {}, 'raw': time: 555
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:39:55.081721', '0x433acb14', {'time': 1511, 'environmentMetrics': {'temperature': 27.72636, 'relativeHumidity': 18.78706, 'barometricPressure': 1017.2706, 'gasResistance': 81.50599, 'voltage': 4.595, 'current': -3.75, 'iaq': 61}, 'raw': time: 1511
+environment_metrics {
+  temperature: 27.7263603
+  relative_humidity: 18.7870598
+  barometric_pressure: 1017.27063
+  gas_resistance: 81.5059891
+  voltage: 4.595
+  current: -3.75
+  iaq: 61
+}
+}]
+['2024-10-20 10:39:58.217370', '0x433aad0c', {'time': 551, 'environmentMetrics': {'temperature': 26.57403, 'relativeHumidity': 20.535246, 'barometricPressure': 1017.25824, 'gasResistance': 75.16064, 'voltage': 4.47625, 'current': -3.75, 'iaq': 53}, 'raw': time: 551
+environment_metrics {
+  temperature: 26.5740299
+  relative_humidity: 20.5352459
+  barometric_pressure: 1017.25824
+  gas_resistance: 75.1606369
+  voltage: 4.47625
+  current: -3.75
+  iaq: 53
+}
+}]
+['2024-10-20 10:39:58.792206', '0x433aad0c', {'time': 553, 'airQualityMetrics': {}, 'raw': time: 553
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:40:01.199203', '0x433acb14', {'time': 1516, 'airQualityMetrics': {'pm100Standard': 1, 'pm100Environmental': 1}, 'raw': time: 1516
+air_quality_metrics {
+  pm100_standard: 1
+  pm100_environmental: 1
+}
+}]
+['2024-10-20 10:40:04.434589', '0x433acb14', {'time': 1521, 'powerMetrics': {'ch3Voltage': 4.5725, 'ch3Current': -3.75}, 'raw': time: 1521
+power_metrics {
+  ch3_voltage: 4.5725
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:40:06.218544', '0x433ad35c', {'time': 552, 'environmentMetrics': {'temperature': 25.863998, 'relativeHumidity': 21.440052, 'barometricPressure': 1017.2337, 'gasResistance': 49.00918, 'voltage': 4.4125, 'current': -1.25, 'iaq': 51}, 'raw': time: 552
+environment_metrics {
+  temperature: 25.8639984
+  relative_humidity: 21.440052
+  barometric_pressure: 1017.2337
+  gas_resistance: 49.0091782
+  voltage: 4.4125
+  current: -1.25
+  iaq: 51
+}
+}]
+['2024-10-20 10:40:09.098987', '0x433ad35c', {'time': 554, 'airQualityMetrics': {}, 'raw': time: 554
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:40:23.055940', '0x43590ff4', {'time': 661552, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.238, 'channelUtilization': 18.286667, 'airUtilTx': 2.1533332, 'uptimeSeconds': 661553}, 'raw': time: 661552
+device_metrics {
+  battery_level: 101
+  voltage: 4.238
+  channel_utilization: 18.2866669
+  air_util_tx: 2.15333319
+  uptime_seconds: 661553
+}
+}]
+['2024-10-20 10:40:43.081917', '0x336462e4', {'time': 2447, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.152, 'channelUtilization': 17.286667, 'airUtilTx': 1.6390834, 'uptimeSeconds': 2448}, 'raw': time: 2447
+device_metrics {
+  battery_level: 97
+  voltage: 4.152
+  channel_utilization: 17.2866669
+  air_util_tx: 1.63908339
+  uptime_seconds: 2448
+}
+}]
+['2024-10-20 10:40:46.511615', '0x433b0b38', {'time': 613, 'environmentMetrics': {'temperature': 25.339352, 'relativeHumidity': 20.376453, 'barometricPressure': 1016.6149, 'gasResistance': 71.748886, 'voltage': 4.45625, 'current': -5.0, 'iaq': 53}, 'raw': time: 613
+environment_metrics {
+  temperature: 25.3393517
+  relative_humidity: 20.3764534
+  barometric_pressure: 1016.61493
+  gas_resistance: 71.7488861
+  voltage: 4.45625
+  current: -5
+  iaq: 53
+}
+}]
+['2024-10-20 10:40:49.032526', '0x433b0b38', {'time': 615, 'airQualityMetrics': {}, 'raw': time: 615
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:40:55.632478', '0x433acb14', {'time': 1571, 'environmentMetrics': {'temperature': 27.73553, 'relativeHumidity': 18.527567, 'barometricPressure': 1017.276, 'gasResistance': 82.70438, 'voltage': 4.57, 'current': -2.5, 'iaq': 50}, 'raw': time: 1571
+environment_metrics {
+  temperature: 27.7355309
+  relative_humidity: 18.5275669
+  barometric_pressure: 1017.276
+  gas_resistance: 82.7043762
+  voltage: 4.57
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:40:57.399866', '0x433b0b38', {'time': 622, 'powerMetrics': {'ch3Voltage': 4.4375, 'ch3Current': -3.75}, 'raw': time: 622
+power_metrics {
+  ch3_voltage: 4.4375
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:41:00.571861', '0x433ad35c', {'time': 612, 'environmentMetrics': {'temperature': 25.951105, 'relativeHumidity': 21.389994, 'barometricPressure': 1017.20764, 'gasResistance': 49.210003, 'voltage': 4.29125, 'current': -2.5, 'iaq': 51}, 'raw': time: 612
+environment_metrics {
+  temperature: 25.9511051
+  relative_humidity: 21.3899937
+  barometric_pressure: 1017.20764
+  gas_resistance: 49.2100029
+  voltage: 4.29125
+  current: -2.5
+  iaq: 51
+}
+}]
+['2024-10-20 10:41:03.047681', '0x433ad35c', {'time': 614, 'airQualityMetrics': {}, 'raw': time: 614
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:41:06.309228', '0x433acb14', {'time': 1577, 'airQualityMetrics': {}, 'raw': time: 1577
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:41:09.119163', '0x433ad35c', {'time': 620, 'powerMetrics': {'ch3Voltage': 4.3925, 'ch3Current': -1.25}, 'raw': time: 620
+power_metrics {
+  ch3_voltage: 4.3925
+  ch3_current: -1.25
+}
+}]
+['2024-10-20 10:41:11.363064', '0x433aad0c', {'time': 611, 'environmentMetrics': {'temperature': 26.63963, 'relativeHumidity': 20.45919, 'barometricPressure': 1017.2404, 'gasResistance': 74.69142, 'voltage': 4.47625, 'current': -3.75, 'iaq': 58}, 'raw': time: 611
+environment_metrics {
+  temperature: 26.6396294
+  relative_humidity: 20.4591904
+  barometric_pressure: 1017.24042
+  gas_resistance: 74.6914215
+  voltage: 4.47625
+  current: -3.75
+  iaq: 58
+}
+}]
+['2024-10-20 10:41:12.050282', '0x433aad0c', {'time': 613, 'airQualityMetrics': {}, 'raw': time: 613
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:41:14.950514', '0x433aad0c', {'time': 620, 'powerMetrics': {'ch3Voltage': 4.455, 'ch3Current': -3.75}, 'raw': time: 620
+power_metrics {
+  ch3_voltage: 4.455
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:41:42.973784', '0x336462e4', {'time': 2507, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.191, 'channelUtilization': 22.093334, 'airUtilTx': 1.7189445, 'uptimeSeconds': 2508}, 'raw': time: 2507
+device_metrics {
+  battery_level: 100
+  voltage: 4.191
+  channel_utilization: 22.0933342
+  air_util_tx: 1.71894455
+  uptime_seconds: 2508
+}
+}]
+['2024-10-20 10:41:47.318116', '0x433b0b38', {'time': 673, 'environmentMetrics': {'temperature': 25.44723, 'relativeHumidity': 20.300821, 'barometricPressure': 1016.64246, 'gasResistance': 71.869736, 'voltage': 4.45625, 'current': -2.5, 'iaq': 50}, 'raw': time: 673
+environment_metrics {
+  temperature: 25.4472294
+  relative_humidity: 20.3008213
+  barometric_pressure: 1016.64246
+  gas_resistance: 71.8697357
+  voltage: 4.45625
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:41:49.705021', '0x433b0b38', {'time': 675, 'airQualityMetrics': {}, 'raw': time: 675
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:41:55.680616', '0x433acb14', {'time': 1631, 'environmentMetrics': {'temperature': 27.708523, 'relativeHumidity': 18.52851, 'barometricPressure': 1017.2691, 'gasResistance': 82.46189, 'voltage': 4.58875, 'current': -5.0, 'iaq': 54}, 'raw': time: 1631
+environment_metrics {
+  temperature: 27.7085228
+  relative_humidity: 18.5285091
+  barometric_pressure: 1017.2691
+  gas_resistance: 82.4618912
+  voltage: 4.58875
+  current: -5
+  iaq: 54
+}
+}]
+['2024-10-20 10:41:59.924155', '0x433aad0c', {'time': 671, 'environmentMetrics': {'temperature': 26.702013, 'relativeHumidity': 20.472336, 'barometricPressure': 1017.2488, 'gasResistance': 74.42592, 'voltage': 4.4525, 'current': -2.5, 'iaq': 59}, 'raw': time: 671
+environment_metrics {
+  temperature: 26.702013
+  relative_humidity: 20.4723358
+  barometric_pressure: 1017.24878
+  gas_resistance: 74.4259186
+  voltage: 4.4525
+  current: -2.5
+  iaq: 59
+}
+}]
+['2024-10-20 10:42:00.474128', '0x433aad0c', {'time': 673, 'airQualityMetrics': {}, 'raw': time: 673
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:42:02.972379', '0x433ad35c', {'time': 672, 'environmentMetrics': {'temperature': 26.034145, 'relativeHumidity': 21.20019, 'barometricPressure': 1017.22284, 'gasResistance': 49.23883, 'voltage': 4.38875, 'current': -2.5, 'iaq': 51}, 'raw': time: 672
+environment_metrics {
+  temperature: 26.0341454
+  relative_humidity: 21.2001896
+  barometric_pressure: 1017.22284
+  gas_resistance: 49.2388306
+  voltage: 4.38875
+  current: -2.5
+  iaq: 51
+}
+}]
+['2024-10-20 10:42:03.823879', '0x433ad35c', {'time': 674, 'airQualityMetrics': {}, 'raw': time: 674
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:42:07.961874', '0x433acb14', {'time': 1637, 'airQualityMetrics': {}, 'raw': time: 1637
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:42:43.037852', '0x336462e4', {'time': 2567, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.238, 'channelUtilization': 13.2699995, 'airUtilTx': 1.7805556, 'uptimeSeconds': 2568}, 'raw': time: 2567
+device_metrics {
+  battery_level: 101
+  voltage: 4.238
+  channel_utilization: 13.2699995
+  air_util_tx: 1.78055561
+  uptime_seconds: 2568
+}
+}]
+['2024-10-20 10:42:46.549574', '0x433b0b38', {'time': 733, 'environmentMetrics': {'temperature': 25.550003, 'relativeHumidity': 20.188229, 'barometricPressure': 1016.6295, 'gasResistance': 71.869736, 'voltage': 4.4575, 'current': -2.5, 'iaq': 51}, 'raw': time: 733
+environment_metrics {
+  temperature: 25.5500031
+  relative_humidity: 20.1882286
+  barometric_pressure: 1016.62952
+  gas_resistance: 71.8697357
+  voltage: 4.4575
+  current: -2.5
+  iaq: 51
+}
+}]
+['2024-10-20 10:42:48.973146', '0x433b0b38', {'time': 736, 'airQualityMetrics': {}, 'raw': time: 736
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:42:54.941487', '0x433acb14', {'time': 1691, 'environmentMetrics': {'temperature': 27.605247, 'relativeHumidity': 19.420214, 'barometricPressure': 1017.2984, 'gasResistance': 73.93533, 'voltage': 4.56875, 'current': -2.5, 'iaq': 84}, 'raw': time: 1691
+environment_metrics {
+  temperature: 27.6052475
+  relative_humidity: 19.4202137
+  barometric_pressure: 1017.2984
+  gas_resistance: 73.9353333
+  voltage: 4.56875
+  current: -2.5
+  iaq: 84
+}
+}]
+['2024-10-20 10:42:58.131875', '0x433aad0c', {'time': 731, 'environmentMetrics': {'temperature': 26.790949, 'relativeHumidity': 20.327848, 'barometricPressure': 1017.2596, 'gasResistance': 74.95884, 'voltage': 4.47875, 'current': -3.75, 'iaq': 54}, 'raw': time: 731
+environment_metrics {
+  temperature: 26.7909489
+  relative_humidity: 20.3278484
+  barometric_pressure: 1017.25958
+  gas_resistance: 74.9588394
+  voltage: 4.47875
+  current: -3.75
+  iaq: 54
+}
+}]
+['2024-10-20 10:42:59.499201', '0x433aad0c', {'time': 734, 'airQualityMetrics': {}, 'raw': time: 734
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:43:02.008513', '0x433ad35c', {'time': 732, 'environmentMetrics': {'temperature': 26.123562, 'relativeHumidity': 21.157957, 'barometricPressure': 1017.2079, 'gasResistance': 49.35447, 'voltage': 4.415, 'current': -2.5, 'iaq': 52}, 'raw': time: 732
+environment_metrics {
+  temperature: 26.1235619
+  relative_humidity: 21.1579571
+  barometric_pressure: 1017.20789
+  gas_resistance: 49.3544693
+  voltage: 4.415
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:43:02.468013', '0x433ad35c', {'time': 735, 'airQualityMetrics': {}, 'raw': time: 735
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:43:04.929906', '0x433acb14', {'time': 1697, 'airQualityMetrics': {'pm100Standard': 1, 'pm100Environmental': 1}, 'raw': time: 1697
+air_quality_metrics {
+  pm100_standard: 1
+  pm100_environmental: 1
+}
+}]
+['2024-10-20 10:43:20.334202', '0x433b0b38', {'time': 767, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.17, 'channelUtilization': 16.346666, 'airUtilTx': 0.8336667, 'uptimeSeconds': 766}, 'raw': time: 767
+device_metrics {
+  battery_level: 98
+  voltage: 4.17
+  channel_utilization: 16.3466663
+  air_util_tx: 0.833666682
+  uptime_seconds: 766
+}
+}]
+['2024-10-20 10:43:31.022295', '0x433aad0c', {'time': 765, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.235, 'channelUtilization': 16.836666, 'airUtilTx': 0.7750278, 'uptimeSeconds': 766}, 'raw': time: 765
+device_metrics {
+  battery_level: 101
+  voltage: 4.235
+  channel_utilization: 16.8366661
+  air_util_tx: 0.775027812
+  uptime_seconds: 766
+}
+}]
+['2024-10-20 10:43:34.224912', '0x433ad35c', {'time': 765, 'deviceMetrics': {'batteryLevel': 98, 'voltage': 4.175, 'channelUtilization': 17.808332, 'airUtilTx': 0.73691666, 'uptimeSeconds': 766}, 'raw': time: 765
+device_metrics {
+  battery_level: 98
+  voltage: 4.175
+  channel_utilization: 17.8083324
+  air_util_tx: 0.736916661
+  uptime_seconds: 766
+}
+}]
+['2024-10-20 10:43:43.043386', '0x336462e4', {'time': 2627, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.218, 'channelUtilization': 17.026667, 'airUtilTx': 1.8234723, 'uptimeSeconds': 2628}, 'raw': time: 2627
+device_metrics {
+  battery_level: 101
+  voltage: 4.218
+  channel_utilization: 17.0266666
+  air_util_tx: 1.82347226
+  uptime_seconds: 2628
+}
+}]
+['2024-10-20 10:43:46.719967', '0x433b0b38', {'time': 793, 'environmentMetrics': {'temperature': 25.616856, 'relativeHumidity': 20.064686, 'barometricPressure': 1016.6277, 'gasResistance': 72.851456, 'voltage': 4.45875, 'current': -3.75, 'iaq': 52}, 'raw': time: 793
+environment_metrics {
+  temperature: 25.6168556
+  relative_humidity: 20.0646858
+  barometric_pressure: 1016.62769
+  gas_resistance: 72.8514557
+  voltage: 4.45875
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:43:49.204958', '0x433b0b38', {'time': 796, 'airQualityMetrics': {}, 'raw': time: 796
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:43:54.997325', '0x433acb14', {'time': 1751, 'environmentMetrics': {'temperature': 27.933002, 'relativeHumidity': 18.427675, 'barometricPressure': 1017.5971, 'gasResistance': 80.95856, 'voltage': 4.59, 'current': -3.75, 'iaq': 60}, 'raw': time: 1751
+environment_metrics {
+  temperature: 27.9330025
+  relative_humidity: 18.4276752
+  barometric_pressure: 1017.59711
+  gas_resistance: 80.9585571
+  voltage: 4.59
+  current: -3.75
+  iaq: 60
+}
+}]
+['2024-10-20 10:43:57.807728', '0x433aad0c', {'time': 791, 'environmentMetrics': {'temperature': 26.851645, 'relativeHumidity': 20.242311, 'barometricPressure': 1017.24133, 'gasResistance': 75.09325, 'voltage': 4.455, 'current': -3.75, 'iaq': 53}, 'raw': time: 791
+environment_metrics {
+  temperature: 26.8516445
+  relative_humidity: 20.2423115
+  barometric_pressure: 1017.24133
+  gas_resistance: 75.0932465
+  voltage: 4.455
+  current: -3.75
+  iaq: 53
+}
+}]
+['2024-10-20 10:44:01.007910', '0x433ad35c', {'time': 792, 'environmentMetrics': {'temperature': 26.214046, 'relativeHumidity': 20.952587, 'barometricPressure': 1017.2514, 'gasResistance': 49.09505, 'voltage': 4.3925, 'current': -3.75, 'iaq': 52}, 'raw': time: 792
+environment_metrics {
+  temperature: 26.2140465
+  relative_humidity: 20.9525871
+  barometric_pressure: 1017.2514
+  gas_resistance: 49.0950508
+  voltage: 4.3925
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:44:02.863446', '0x433aad0c', {'time': 794, 'airQualityMetrics': {}, 'raw': time: 794
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:44:04.437217', '0x433ad35c', {'time': 795, 'airQualityMetrics': {}, 'raw': time: 795
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:44:06.017776', '0x433acb14', {'time': 1758, 'airQualityMetrics': {}, 'raw': time: 1758
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:44:43.051928', '0x336462e4', {'time': 2687, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.21, 'channelUtilization': 11.09, 'airUtilTx': 1.8421667, 'uptimeSeconds': 2688}, 'raw': time: 2687
+device_metrics {
+  battery_level: 101
+  voltage: 4.21
+  channel_utilization: 11.09
+  air_util_tx: 1.84216666
+  uptime_seconds: 2688
+}
+}]
+['2024-10-20 10:44:46.629606', '0x433b0b38', {'time': 853, 'environmentMetrics': {'temperature': 25.699135, 'relativeHumidity': 19.986525, 'barometricPressure': 1016.6326, 'gasResistance': 72.11268, 'voltage': 4.45625, 'current': -2.5, 'iaq': 52}, 'raw': time: 853
+environment_metrics {
+  temperature: 25.6991348
+  relative_humidity: 19.9865246
+  barometric_pressure: 1016.63263
+  gas_resistance: 72.1126785
+  voltage: 4.45625
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:44:49.304457', '0x433b0b38', {'time': 856, 'airQualityMetrics': {}, 'raw': time: 856
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:44:55.094979', '0x433acb14', {'time': 1811, 'environmentMetrics': {'temperature': 27.764822, 'relativeHumidity': 18.399496, 'barometricPressure': 1017.2487, 'gasResistance': 82.86683, 'voltage': 4.565, 'current': -2.5, 'iaq': 52}, 'raw': time: 1811
+environment_metrics {
+  temperature: 27.764822
+  relative_humidity: 18.3994961
+  barometric_pressure: 1017.24872
+  gas_resistance: 82.8668289
+  voltage: 4.565
+  current: -2.5
+  iaq: 52
+}
+}]
+['2024-10-20 10:44:57.949376', '0x433aad0c', {'time': 851, 'environmentMetrics': {'temperature': 26.841185, 'relativeHumidity': 20.245907, 'barometricPressure': 1017.2454, 'gasResistance': 75.16064, 'voltage': 4.47375, 'current': -3.75, 'iaq': 57}, 'raw': time: 851
+environment_metrics {
+  temperature: 26.8411846
+  relative_humidity: 20.2459068
+  barometric_pressure: 1017.24542
+  gas_resistance: 75.1606369
+  voltage: 4.47375
+  current: -3.75
+  iaq: 57
+}
+}]
+['2024-10-20 10:45:00.084227', '0x433aad0c', {'time': 854, 'airQualityMetrics': {}, 'raw': time: 854
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:45:02.506607', '0x433ad35c', {'time': 852, 'environmentMetrics': {'temperature': 26.274002, 'relativeHumidity': 20.92302, 'barometricPressure': 1017.21735, 'gasResistance': 49.09505, 'voltage': 4.41375, 'current': -2.5, 'iaq': 53}, 'raw': time: 852
+environment_metrics {
+  temperature: 26.2740021
+  relative_humidity: 20.9230194
+  barometric_pressure: 1017.21735
+  gas_resistance: 49.0950508
+  voltage: 4.41375
+  current: -2.5
+  iaq: 53
+}
+}]
+['2024-10-20 10:45:03.096036', '0x433ad35c', {'time': 855, 'airQualityMetrics': {}, 'raw': time: 855
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:45:05.428986', '0x433acb14', {'time': 1818, 'airQualityMetrics': {}, 'raw': time: 1818
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:45:06.179360', '0x433acb14', {'time': 1821, 'powerMetrics': {'ch3Voltage': 4.56875, 'ch3Current': -3.75}, 'raw': time: 1821
+power_metrics {
+  ch3_voltage: 4.56875
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:45:29.460977', '0x433acb14', {'time': 1846, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.228, 'channelUtilization': 16.483334, 'airUtilTx': 1.5528333, 'uptimeSeconds': 1847}, 'raw': time: 1846
+device_metrics {
+  battery_level: 101
+  voltage: 4.228
+  channel_utilization: 16.4833336
+  air_util_tx: 1.55283332
+  uptime_seconds: 1847
+}
+}]
+['2024-10-20 10:45:43.242723', '0x336462e4', {'time': 2747, 'deviceMetrics': {'batteryLevel': 100, 'voltage': 4.2, 'channelUtilization': 14.7300005, 'airUtilTx': 1.9300278, 'uptimeSeconds': 2748}, 'raw': time: 2747
+device_metrics {
+  battery_level: 100
+  voltage: 4.2
+  channel_utilization: 14.7300005
+  air_util_tx: 1.93002784
+  uptime_seconds: 2748
+}
+}]
+['2024-10-20 10:45:47.974738', '0x433b0b38', {'time': 913, 'environmentMetrics': {'temperature': 25.768597, 'relativeHumidity': 19.914286, 'barometricPressure': 1016.6403, 'gasResistance': 72.665344, 'voltage': 4.4575, 'current': -2.5, 'iaq': 53}, 'raw': time: 913
+environment_metrics {
+  temperature: 25.7685966
+  relative_humidity: 19.9142857
+  barometric_pressure: 1016.64032
+  gas_resistance: 72.6653442
+  voltage: 4.4575
+  current: -2.5
+  iaq: 53
+}
+}]
+['2024-10-20 10:45:49.390711', '0x433b0b38', {'time': 916, 'airQualityMetrics': {}, 'raw': time: 916
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:45:55.138452', '0x433acb14', {'time': 1871, 'environmentMetrics': {'temperature': 27.797562, 'relativeHumidity': 18.477184, 'barometricPressure': 1017.26154, 'gasResistance': 82.86683, 'voltage': 4.58625, 'current': -3.75, 'iaq': 53}, 'raw': time: 1871
+environment_metrics {
+  temperature: 27.7975616
+  relative_humidity: 18.4771843
+  barometric_pressure: 1017.26154
+  gas_resistance: 82.8668289
+  voltage: 4.58625
+  current: -3.75
+  iaq: 53
+}
+}]
+['2024-10-20 10:45:56.901598', '0x433b0b38', {'time': 923, 'powerMetrics': {'ch3Voltage': 4.45875, 'ch3Current': -3.75}, 'raw': time: 923
+power_metrics {
+  ch3_voltage: 4.45875
+  ch3_current: -3.75
+}
+}]
+['2024-10-20 10:45:57.753539', '0x433aad0c', {'time': 911, 'environmentMetrics': {'temperature': 26.866396, 'relativeHumidity': 20.291674, 'barometricPressure': 1017.34863, 'gasResistance': 67.41637, 'voltage': 4.4775, 'current': -3.75, 'iaq': 93}, 'raw': time: 911
+environment_metrics {
+  temperature: 26.866396
+  relative_humidity: 20.2916737
+  barometric_pressure: 1017.34863
+  gas_resistance: 67.4163666
+  voltage: 4.4775
+  current: -3.75
+  iaq: 93
+}
+}]
+['2024-10-20 10:46:00.579557', '0x433ad35c', {'time': 912, 'environmentMetrics': {'temperature': 26.314287, 'relativeHumidity': 21.030752, 'barometricPressure': 1017.2037, 'gasResistance': 47.19325, 'voltage': 4.38875, 'current': -2.5, 'iaq': 78}, 'raw': time: 912
+environment_metrics {
+  temperature: 26.3142872
+  relative_humidity: 21.0307522
+  barometric_pressure: 1017.20367
+  gas_resistance: 47.1932487
+  voltage: 4.38875
+  current: -2.5
+  iaq: 78
+}
+}]
+['2024-10-20 10:46:03.058860', '0x433aad0c', {'time': 914, 'airQualityMetrics': {}, 'raw': time: 914
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:46:04.507490', '0x433ad35c', {'time': 915, 'airQualityMetrics': {}, 'raw': time: 915
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:46:06.201189', '0x433acb14', {'time': 1878, 'airQualityMetrics': {}, 'raw': time: 1878
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:46:07.964343', '0x433aad0c', {'time': 921, 'powerMetrics': {'ch3Voltage': 4.47375, 'ch3Current': -2.5}, 'raw': time: 921
+power_metrics {
+  ch3_voltage: 4.47375
+  ch3_current: -2.5
+}
+}]
+['2024-10-20 10:46:09.720444', '0x433ad35c', {'time': 920, 'powerMetrics': {'ch3Voltage': 4.3925, 'ch3Current': -1.25}, 'raw': time: 920
+power_metrics {
+  ch3_voltage: 4.3925
+  ch3_current: -1.25
+}
+}]
+['2024-10-20 10:46:43.244414', '0x336462e4', {'time': 2807, 'deviceMetrics': {'batteryLevel': 97, 'voltage': 4.159, 'channelUtilization': 23.79, 'airUtilTx': 1.9724723, 'uptimeSeconds': 2808}, 'raw': time: 2807
+device_metrics {
+  battery_level: 97
+  voltage: 4.159
+  channel_utilization: 23.79
+  air_util_tx: 1.97247231
+  uptime_seconds: 2808
+}
+}]
+['2024-10-20 10:46:46.697877', '0x433b0b38', {'time': 973, 'environmentMetrics': {'temperature': 25.79945, 'relativeHumidity': 19.873371, 'barometricPressure': 1016.64343, 'gasResistance': 72.603516, 'voltage': 4.4575, 'current': -3.75, 'iaq': 52}, 'raw': time: 973
+environment_metrics {
+  temperature: 25.7994499
+  relative_humidity: 19.8733711
+  barometric_pressure: 1016.64343
+  gas_resistance: 72.6035156
+  voltage: 4.4575
+  current: -3.75
+  iaq: 52
+}
+}]
+['2024-10-20 10:46:49.932852', '0x433b0b38', {'time': 977, 'airQualityMetrics': {}, 'raw': time: 977
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:46:55.198735', '0x433acb14', {'time': 1931, 'environmentMetrics': {'temperature': 27.769297, 'relativeHumidity': 18.490362, 'barometricPressure': 1017.254, 'gasResistance': 82.70438, 'voltage': 4.56375, 'current': -5.0, 'iaq': 52}, 'raw': time: 1931
+environment_metrics {
+  temperature: 27.7692966
+  relative_humidity: 18.4903622
+  barometric_pressure: 1017.25403
+  gas_resistance: 82.7043762
+  voltage: 4.56375
+  current: -5
+  iaq: 52
+}
+}]
+['2024-10-20 10:46:58.317865', '0x433aad0c', {'time': 971, 'environmentMetrics': {'temperature': 26.89996, 'relativeHumidity': 20.155842, 'barometricPressure': 1017.25336, 'gasResistance': 74.55844, 'voltage': 4.47625, 'current': -1.25, 'iaq': 59}, 'raw': time: 971
+environment_metrics {
+  temperature: 26.8999596
+  relative_humidity: 20.1558418
+  barometric_pressure: 1017.25336
+  gas_resistance: 74.5584412
+  voltage: 4.47625
+  current: -1.25
+  iaq: 59
+}
+}]
+['2024-10-20 10:47:00.561634', '0x433aad0c', {'time': 975, 'airQualityMetrics': {}, 'raw': time: 975
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:47:03.125221', '0x433ad35c', {'time': 972, 'environmentMetrics': {'temperature': 26.412779, 'relativeHumidity': 20.717112, 'barometricPressure': 1017.21545, 'gasResistance': 48.9521, 'voltage': 4.415, 'current': -1.25, 'iaq': 54}, 'raw': time: 972
+environment_metrics {
+  temperature: 26.4127789
+  relative_humidity: 20.7171116
+  barometric_pressure: 1017.21545
+  gas_resistance: 48.9521
+  voltage: 4.415
+  current: -1.25
+  iaq: 54
+}
+}]
+['2024-10-20 10:47:03.740690', '0x433ad35c', {'time': 976, 'airQualityMetrics': {}, 'raw': time: 976
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:47:10.085597', '0x433acb14', {'time': 1938, 'airQualityMetrics': {}, 'raw': time: 1938
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:47:43.359115', '0x336462e4', {'time': 2867, 'deviceMetrics': {'batteryLevel': 101, 'voltage': 4.218, 'channelUtilization': 15.908334, 'airUtilTx': 2.0219722, 'uptimeSeconds': 2868}, 'raw': time: 2867
+device_metrics {
+  battery_level: 101
+  voltage: 4.218
+  channel_utilization: 15.9083338
+  air_util_tx: 2.02197218
+  uptime_seconds: 2868
+}
+}]
+['2024-10-20 10:47:46.728754', '0x433b0b38', {'time': 1033, 'environmentMetrics': {'temperature': 25.863731, 'relativeHumidity': 19.80755, 'barometricPressure': 1016.6304, 'gasResistance': 73.10109, 'voltage': 4.45625, 'current': -2.5, 'iaq': 50}, 'raw': time: 1033
+environment_metrics {
+  temperature: 25.8637314
+  relative_humidity: 19.8075504
+  barometric_pressure: 1016.63037
+  gas_resistance: 73.1010895
+  voltage: 4.45625
+  current: -2.5
+  iaq: 50
+}
+}]
+['2024-10-20 10:47:49.886432', '0x433b0b38', {'time': 1037, 'airQualityMetrics': {}, 'raw': time: 1037
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:47:55.055923', '0x433acb14', {'time': 1991, 'environmentMetrics': {'temperature': 27.746454, 'relativeHumidity': 18.332758, 'barometricPressure': 1017.261, 'gasResistance': 83.44047, 'voltage': 4.57875, 'current': -3.75, 'iaq': 50}, 'raw': time: 1991
+environment_metrics {
+  temperature: 27.7464542
+  relative_humidity: 18.3327579
+  barometric_pressure: 1017.26099
+  gas_resistance: 83.4404678
+  voltage: 4.57875
+  current: -3.75
+  iaq: 50
+}
+}]
+['2024-10-20 10:47:58.013823', '0x433aad0c', {'time': 1031, 'environmentMetrics': {'temperature': 26.930233, 'relativeHumidity': 20.227007, 'barometricPressure': 1017.244, 'gasResistance': 68.07394, 'voltage': 4.47625, 'current': -3.75, 'iaq': 83}, 'raw': time: 1031
+environment_metrics {
+  temperature: 26.930233
+  relative_humidity: 20.2270069
+  barometric_pressure: 1017.24402
+  gas_resistance: 68.0739365
+  voltage: 4.47625
+  current: -3.75
+  iaq: 83
+}
+}]
+['2024-10-20 10:48:00.860868', '0x433ad35c', {'time': 1032, 'environmentMetrics': {'temperature': 26.448927, 'relativeHumidity': 20.72776, 'barometricPressure': 1017.2129, 'gasResistance': 49.181217, 'voltage': 4.415, 'current': -1.25, 'iaq': 56}, 'raw': time: 1032
+environment_metrics {
+  temperature: 26.4489269
+  relative_humidity: 20.7277603
+  barometric_pressure: 1017.21289
+  gas_resistance: 49.1812172
+  voltage: 4.415
+  current: -1.25
+  iaq: 56
+}
+}]
+['2024-10-20 10:48:02.658945', '0x433aad0c', {'time': 1035, 'airQualityMetrics': {}, 'raw': time: 1035
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:48:04.081858', '0x433acb14', {'time': 1999, 'airQualityMetrics': {}, 'raw': time: 1999
+air_quality_metrics {
+}
+}]
+['2024-10-20 10:48:05.569783', '0x433ad35c', {'time': 1036, 'airQualityMetrics': {}, 'raw': time: 1036
+air_quality_metrics {
+}
+}]
